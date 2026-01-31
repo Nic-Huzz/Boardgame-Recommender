@@ -1121,7 +1121,7 @@ export default function BoardGameRecommenderV7() {
                   </div>
                   <div className="flex items-center gap-2">
                     <span className={`px-1.5 py-0.5 rounded text-xs ${COMPLEXITY_TIERS[tier].color}`}>{COMPLEXITY_TIERS[tier].label}</span>
-                    <span className="text-xs text-yellow-400">⭐{game.bggRating}</span>
+                    <span className="text-xs text-yellow-400">⭐ {game.bggRating}</span>
                   </div>
                 </button>
               );
@@ -1341,7 +1341,7 @@ export default function BoardGameRecommenderV7() {
                         <span className={`px-1.5 py-0.5 rounded text-xs ${tier.color}`}>{tier.label}</span>
                         <span className="text-xs text-white/50">{game.minPlayers}-{game.maxPlayers}p</span>
                         <span className="text-xs text-white/50">{game.minTime}-{game.maxTime}m</span>
-                        <span className="text-xs text-yellow-400">⭐{game.bggRating}</span>
+                        <span className="text-xs text-yellow-400">⭐ {game.bggRating}</span>
                       </div>
                       {game.reasons.length > 0 && !game.isRated && (
                         <div className="flex flex-wrap gap-1 mt-1.5">

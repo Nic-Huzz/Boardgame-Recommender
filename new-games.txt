@@ -1,0 +1,2486 @@
+  {
+    id: 'risk', name: "Risk", bggId: 181, year: 1959,
+    bggRating: 5.5, complexity: 2,
+    minPlayers: 2, maxPlayers: 6,
+    minTime: 120, maxTime: 360,
+    elements: [
+      { name: 'dice-rolling', sentiment: 'positive', note: "Combat resolved by dice — exciting but swingy" },
+      { name: 'area-control', sentiment: 'positive', note: "Conquer territories to control continents" },
+      { name: 'negotiation', sentiment: 'positive', note: "Alliances form and break constantly" },
+      { name: 'dramatic', sentiment: 'positive', note: "Huge swings of fortune, memorable comebacks" },
+      { name: 'confrontational', sentiment: 'positive', note: "Direct conflict is the core experience" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "Games can drag on for 4-6 hours" },
+      { name: 'too-random', note: "Dice can override all strategy" },
+      { name: 'player-elimination', note: "Knocked out players watch for hours" }
+    ]
+  },
+  {
+    id: 'game-of-thrones-board-game', name: "A Game of Thrones: The Board Game", bggId: 6472, year: 2003,
+    bggRating: 7.3, complexity: 3.7,
+    minPlayers: 3, maxPlayers: 6,
+    minTime: 180, maxTime: 300,
+    elements: [
+      { name: 'negotiation', sentiment: 'positive', note: "Diplomacy and betrayal are essential" },
+      { name: 'hidden-information', sentiment: 'positive', note: "Secret order placement creates tension" },
+      { name: 'area-control', sentiment: 'positive', note: "Control castles and strongholds to win" },
+      { name: 'dramatic', sentiment: 'positive', note: "Betrayals and shocking reveals" },
+      { name: 'thematic', sentiment: 'positive', note: "Captures the feel of the books/show perfectly" },
+      { name: 'asymmetric', sentiment: 'positive', note: "Each House plays differently" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "3-5 hour playtime" },
+      { name: 'mean-spirited', note: "Backstabbing can feel personal" },
+      { name: 'analysis-paralysis', note: "Many options each round" }
+    ]
+  },
+  {
+    id: 'twilight-imperium-3', name: "Twilight Imperium (Third Edition)", bggId: 12493, year: 2005,
+    bggRating: 7.9, complexity: 4.2,
+    minPlayers: 3, maxPlayers: 6,
+    minTime: 240, maxTime: 480,
+    elements: [
+      { name: 'epic-scope', sentiment: 'positive', note: "Galaxy-spanning space opera" },
+      { name: 'negotiation', sentiment: 'positive', note: "Political dealing is essential" },
+      { name: 'asymmetric', sentiment: 'positive', note: "17 unique alien races" },
+      { name: 'area-control', sentiment: 'positive', note: "Control systems and planets" },
+      { name: 'dramatic', sentiment: 'positive', note: "Memorable stories emerge every game" },
+      { name: 'variable-powers', sentiment: 'positive', note: "Each race plays completely differently" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "6-10+ hour games" },
+      { name: 'analysis-paralysis', note: "Overwhelming options" },
+      { name: 'confrontational', note: "Direct conflict can be brutal" }
+    ]
+  },
+  {
+    id: 'descent', name: "Descent: Journeys in the Dark", bggId: 17226, year: 2005,
+    bggRating: 7.2, complexity: 3.3,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 120, maxTime: 240,
+    elements: [
+      { name: 'dungeon-crawl', sentiment: 'positive', note: "Classic explore-and-fight dungeons" },
+      { name: 'dice-rolling', sentiment: 'positive', note: "Combat uses custom dice" },
+      { name: 'thematic', sentiment: 'positive', note: "Rich fantasy adventure feel" },
+      { name: 'campaign', sentiment: 'positive', note: "Connected scenarios with progression" },
+      { name: 'cooperative', sentiment: 'positive', note: "Heroes work together vs Overlord" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "Sessions can run 3-4 hours" },
+      { name: 'fiddly', note: "Lots of rules and exceptions" }
+    ]
+  },
+  {
+    id: 'hegemony', name: "Hegemony: Lead Your Class to Victory", bggId: 321608, year: 2023,
+    bggRating: 8.4, complexity: 4.1,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 90, maxTime: 180,
+    elements: [
+      { name: 'asymmetric', sentiment: 'positive', note: "Each class (Workers, Capitalists, Middle, State) plays completely differently" },
+      { name: 'thematic', sentiment: 'positive', note: "Political economy simulation feels real" },
+      { name: 'negotiation', sentiment: 'positive', note: "Policy voting and deals" },
+      { name: 'engine-building', sentiment: 'positive', note: "Build economic engine for your class" },
+      { name: 'strategic', sentiment: 'positive', note: "Deep interconnected systems" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "Can run 3+ hours" },
+      { name: 'analysis-paralysis', note: "Many interlocking decisions" },
+      { name: 'confrontational', note: "Classes have opposing interests" }
+    ]
+  },
+  {
+    id: 'dead-of-winter', name: "Dead of Winter", bggId: 150376, year: 2014,
+    bggRating: 7.4, complexity: 3,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 60, maxTime: 120,
+    elements: [
+      { name: 'hidden-traitor', sentiment: 'positive', note: "Someone might be sabotaging the colony" },
+      { name: 'narrative', sentiment: 'positive', note: "Crossroads cards create story moments" },
+      { name: 'cooperative', sentiment: 'positive', note: "Work together to survive" },
+      { name: 'thematic', sentiment: 'positive', note: "Zombie survival tension" },
+      { name: 'tense', sentiment: 'positive', note: "Resources always scarce, trust always fragile" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Dice and card luck can swing outcomes" },
+      { name: 'mean-spirited', note: "Traitor accusations can feel personal" }
+    ]
+  },
+  {
+    id: 'betrayal-house-hill', name: "Betrayal at House on the Hill", bggId: 10547, year: 2004,
+    bggRating: 7, complexity: 2.4,
+    minPlayers: 3, maxPlayers: 6,
+    minTime: 60, maxTime: undefined,
+    elements: [
+      { name: 'narrative', sentiment: 'positive', note: "Different horror story every game" },
+      { name: 'hidden-traitor', sentiment: 'positive', note: "The Haunt reveals the betrayer" },
+      { name: 'exploration', sentiment: 'positive', note: "Build the house as you explore" },
+      { name: 'thematic', sentiment: 'positive', note: "B-movie horror atmosphere" },
+      { name: 'replayable', sentiment: 'positive', note: "50+ different haunts" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Haunt trigger and outcome can feel arbitrary" },
+      { name: 'unbalanced', note: "Some haunts heavily favor one side" }
+    ]
+  },
+  {
+    id: 'destinies', name: "Destinies", bggId: 285192, year: 2021,
+    bggRating: 7.8, complexity: 2.3,
+    minPlayers: 1, maxPlayers: 3,
+    minTime: 90, maxTime: 150,
+    elements: [
+      { name: 'narrative', sentiment: 'positive', note: "App-driven branching stories" },
+      { name: 'exploration', sentiment: 'positive', note: "Discover locations and NPCs" },
+      { name: 'competitive', sentiment: 'positive', note: "Race to fulfill your destiny first" },
+      { name: 'dice-rolling', sentiment: 'positive', note: "Skill checks with dice" },
+      { name: 'thematic', sentiment: 'positive', note: "Dark medieval fantasy" }
+    ],
+    antiElements: [
+      { name: 'app-required', note: "Must use companion app" },
+      { name: 'limited-replayability', note: "Stories less exciting on replay" }
+    ]
+  },
+  {
+    id: 'cosmic-encounter', name: "Cosmic Encounter", bggId: 39463, year: 2008,
+    bggRating: 7.5, complexity: 2.5,
+    minPlayers: 3, maxPlayers: 5,
+    minTime: 60, maxTime: 120,
+    elements: [
+      { name: 'variable-powers', sentiment: 'positive', note: "50+ aliens with game-breaking abilities" },
+      { name: 'negotiation', sentiment: 'positive', note: "Alliances form and break constantly" },
+      { name: 'dramatic', sentiment: 'positive', note: "Wild swings and crazy combos" },
+      { name: 'bluffing', sentiment: 'positive', note: "Card play involves reads and bluffs" },
+      { name: 'replayable', sentiment: 'positive', note: "Every game feels different" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Alien matchups can be imbalanced" },
+      { name: 'chaotic', note: "Hard to plan when powers stack" }
+    ]
+  },
+  {
+    id: 'mansions-of-madness', name: "Mansions of Madness (Second Edition)", bggId: 205059, year: 2016,
+    bggRating: 8, complexity: 2.7,
+    minPlayers: 1, maxPlayers: 5,
+    minTime: 120, maxTime: 180,
+    elements: [
+      { name: 'narrative', sentiment: 'positive', note: "App drives immersive horror stories" },
+      { name: 'cooperative', sentiment: 'positive', note: "Work together to solve mysteries" },
+      { name: 'thematic', sentiment: 'positive', note: "Lovecraftian horror atmosphere" },
+      { name: 'puzzle-solving', sentiment: 'positive', note: "In-app puzzles to solve" },
+      { name: 'exploration', sentiment: 'positive', note: "Discover rooms and clues" }
+    ],
+    antiElements: [
+      { name: 'app-required', note: "Must use companion app" },
+      { name: 'too-long', note: "Scenarios run 2-3 hours" }
+    ]
+  },
+  {
+    id: 'unfathomable', name: "Unfathomable", bggId: 340466, year: 2021,
+    bggRating: 7.6, complexity: 3,
+    minPlayers: 3, maxPlayers: 6,
+    minTime: 120, maxTime: 240,
+    elements: [
+      { name: 'hidden-traitor', sentiment: 'positive', note: "Hybrids secretly work against humans" },
+      { name: 'cooperative', sentiment: 'positive', note: "Crew must survive the voyage" },
+      { name: 'thematic', sentiment: 'positive', note: "Lovecraftian ship horror" },
+      { name: 'tense', sentiment: 'positive', note: "Resources drain, paranoia builds" },
+      { name: 'dramatic', sentiment: 'positive', note: "Accusations and reveals" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "Can run 3-4 hours" },
+      { name: 'mean-spirited', note: "Traitor accusations get personal" }
+    ]
+  },
+  {
+    id: 'small-world', name: "Small World", bggId: 40692, year: 2009,
+    bggRating: 7.2, complexity: 2.4,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 40, maxTime: 80,
+    elements: [
+      { name: 'area-control', sentiment: 'positive', note: "Conquer regions for points" },
+      { name: 'variable-powers', sentiment: 'positive', note: "Race+power combos create variety" },
+      { name: 'confrontational', sentiment: 'positive', note: "Direct conflict, but bouncing back is easy" },
+      { name: 'strategic', sentiment: 'positive', note: "When to decline your race matters" },
+      { name: 'replayable', sentiment: 'positive', note: "Many race/power combinations" }
+    ],
+    antiElements: [
+      { name: 'mean-spirited', note: "Attacking feels targeted" }
+    ]
+  },
+  {
+    id: 'king-of-tokyo', name: "King of Tokyo", bggId: 70323, year: 2011,
+    bggRating: 7.1, complexity: 1.5,
+    minPlayers: 2, maxPlayers: 6,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'dice-rolling', sentiment: 'positive', note: "Yahtzee-style push your luck" },
+      { name: 'exciting', sentiment: 'positive', note: "Quick turns, lots of action" },
+      { name: 'confrontational', sentiment: 'positive', note: "Monsters battle for Tokyo" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to teach anyone" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Dice luck dominates" },
+      { name: 'player-elimination', note: "Can get knocked out early" }
+    ]
+  },
+  {
+    id: 'horrified', name: "Horrified", bggId: 282524, year: 2019,
+    bggRating: 7.3, complexity: 2,
+    minPlayers: 1, maxPlayers: 5,
+    minTime: 60, maxTime: undefined,
+    elements: [
+      { name: 'cooperative', sentiment: 'positive', note: "Work together against classic monsters" },
+      { name: 'thematic', sentiment: 'positive', note: "Universal Monsters nostalgia" },
+      { name: 'puzzle-solving', sentiment: 'positive', note: "Each monster has unique defeat conditions" },
+      { name: 'accessible', sentiment: 'positive', note: "Great gateway co-op" },
+      { name: 'replayable', sentiment: 'positive', note: "Mix different monsters" }
+    ],
+    antiElements: [
+      { name: 'too-easy', note: "Can feel solved with experienced players" }
+    ]
+  },
+  {
+    id: 'cryptid', name: "Cryptid", bggId: 246784, year: 2018,
+    bggRating: 7.4, complexity: 2.2,
+    minPlayers: 3, maxPlayers: 5,
+    minTime: 30, maxTime: 50,
+    elements: [
+      { name: 'deduction', sentiment: 'positive', note: "Pure logic puzzle" },
+      { name: 'elegant', sentiment: 'positive', note: "Simple rules, deep thinking" },
+      { name: 'competitive', sentiment: 'positive', note: "Race to find the cryptid" },
+      { name: 'bluffing', sentiment: 'positive', note: "Mislead opponents about your clue" }
+    ],
+    antiElements: [
+      { name: 'analysis-paralysis', note: "Can get brain-burn-y" }
+    ]
+  },
+  {
+    id: 'memoir-44', name: "Memoir '44", bggId: 10630, year: 2004,
+    bggRating: 7.4, complexity: 2.3,
+    minPlayers: 2, maxPlayers: undefined,
+    minTime: 30, maxTime: 60,
+    elements: [
+      { name: 'wargame', sentiment: 'positive', note: "WWII tactical battles" },
+      { name: 'thematic', sentiment: 'positive', note: "Historical D-Day scenarios" },
+      { name: 'accessible', sentiment: 'positive', note: "Entry-level wargame" },
+      { name: 'dice-rolling', sentiment: 'positive', note: "Combat resolution" },
+      { name: 'scenarios', sentiment: 'positive', note: "Many historical battles to play" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Card draw and dice can frustrate" }
+    ]
+  },
+  {
+    id: 'iki', name: "IKI", bggId: 177478, year: 2015,
+    bggRating: 7.7, complexity: 2.8,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 60, maxTime: 90,
+    elements: [
+      { name: 'beautiful', sentiment: 'positive', note: "Gorgeous Edo-period art" },
+      { name: 'worker-placement', sentiment: 'positive', note: "Move around market to activate artisans" },
+      { name: 'engine-building', sentiment: 'positive', note: "Level up artisans for better effects" },
+      { name: 'thematic', sentiment: 'positive', note: "Japanese market life" },
+      { name: 'strategic', sentiment: 'positive', note: "Timing and position matter" }
+    ],
+    antiElements: [
+      { name: 'analysis-paralysis', note: "Many options each turn" }
+    ]
+  },
+  {
+    id: 'flamecraft', name: "Flamecraft", bggId: 336986, year: 2022,
+    bggRating: 7.6, complexity: 1.8,
+    minPlayers: 1, maxPlayers: 5,
+    minTime: 60, maxTime: undefined,
+    elements: [
+      { name: 'beautiful', sentiment: 'positive', note: "Adorable dragon art" },
+      { name: 'engine-building', sentiment: 'positive', note: "Build shop combos" },
+      { name: 'cozy', sentiment: 'positive', note: "Low-conflict, feel-good gameplay" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to teach" },
+      { name: 'satisfying', sentiment: 'positive', note: "Combo chains feel good" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "Experienced gamers may want more depth" }
+    ]
+  },
+  {
+    id: '7-wonders-architects', name: "7 Wonders: Architects", bggId: 346703, year: 2021,
+    bggRating: 7.1, complexity: 1.4,
+    minPlayers: 2, maxPlayers: 7,
+    minTime: 25, maxTime: undefined,
+    elements: [
+      { name: 'beautiful', sentiment: 'positive', note: "3D wonder pieces" },
+      { name: 'accessible', sentiment: 'positive', note: "Streamlined 7 Wonders" },
+      { name: 'quick', sentiment: 'positive', note: "Fast gameplay" },
+      { name: 'card-drafting', sentiment: 'positive', note: "Simple card selection" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "Less strategic than original" }
+    ]
+  },
+  {
+    id: 'zooloretto', name: "Zooloretto", bggId: 27588, year: 2007,
+    bggRating: 7, complexity: 1.8,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 45, maxTime: undefined,
+    elements: [
+      { name: 'set-collection', sentiment: 'positive', note: "Collect matching animals" },
+      { name: 'push-your-luck', sentiment: 'positive', note: "When to take the truck?" },
+      { name: 'accessible', sentiment: 'positive', note: "Family-friendly" },
+      { name: 'thematic', sentiment: 'positive', note: "Zoo building theme" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "May feel simple to gamers" }
+    ]
+  },
+  {
+    id: 'concept', name: "Concept", bggId: 147151, year: 2013,
+    bggRating: 6.8, complexity: 1.4,
+    minPlayers: 4, maxPlayers: 12,
+    minTime: 40, maxTime: undefined,
+    elements: [
+      { name: 'communication', sentiment: 'positive', note: "Use icons to convey ideas" },
+      { name: 'social', sentiment: 'positive', note: "Fun group interactions" },
+      { name: 'creative', sentiment: 'positive', note: "Many ways to give clues" },
+      { name: 'accessible', sentiment: 'positive', note: "Anyone can play" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "More activity than game" }
+    ]
+  },
+  {
+    id: 'stuffed-fables', name: "Stuffed Fables", bggId: 233312, year: 2018,
+    bggRating: 7.3, complexity: 2.5,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 60, maxTime: 90,
+    elements: [
+      { name: 'narrative', sentiment: 'positive', note: "Storybook adventure game" },
+      { name: 'cooperative', sentiment: 'positive', note: "Stuffed toys protect their child" },
+      { name: 'beautiful', sentiment: 'positive', note: "Gorgeous book serves as board" },
+      { name: 'thematic', sentiment: 'positive', note: "Heartwarming story" },
+      { name: 'family-friendly', sentiment: 'positive', note: "Great with kids" }
+    ],
+    antiElements: [
+      { name: 'fiddly', note: "Lots of little rules" }
+    ]
+  },
+  {
+    id: 'vantage', name: "Vantage", bggId: 420033, year: 2024,
+    bggRating: 7.8, complexity: 2.4,
+    minPlayers: 1, maxPlayers: 6,
+    minTime: 90, maxTime: 150,
+    elements: [
+      { name: 'exploration', sentiment: 'positive', note: "Open-world planet to discover" },
+      { name: 'cooperative', sentiment: 'positive', note: "Players scattered but communicating" },
+      { name: 'narrative', sentiment: 'positive', note: "Stories emerge from exploration" },
+      { name: 'sandbox', sentiment: 'positive', note: "Freedom to explore however you want" },
+      { name: 'replayable', sentiment: 'positive', note: "800+ location cards" }
+    ],
+    antiElements: [
+      { name: 'overwhelming', note: "Can feel directionless" }
+    ]
+  },
+  {
+    id: 'last-light', name: "Last Light", bggId: 315727, year: 2022,
+    bggRating: 7.3, complexity: 2.8,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 60, maxTime: 90,
+    elements: [
+      { name: 'asymmetric', sentiment: 'positive', note: "Each alien faction plays differently" },
+      { name: 'beautiful', sentiment: 'positive', note: "3D planets on rotating board" },
+      { name: 'simultaneous', sentiment: 'positive', note: "All players act at once" },
+      { name: '4x', sentiment: 'positive', note: "Explore, expand, exploit, exterminate" },
+      { name: 'thematic', sentiment: 'positive', note: "Racing for light before heat death" }
+    ],
+    antiElements: [
+      { name: 'chaotic', note: "Hard to plan with simultaneous actions" }
+    ]
+  },
+  {
+    id: 'city-of-horror', name: "City of Horror", bggId: 120217, year: 2012,
+    bggRating: 6.8, complexity: 2.3,
+    minPlayers: 3, maxPlayers: 6,
+    minTime: 90, maxTime: undefined,
+    elements: [
+      { name: 'negotiation', sentiment: 'positive', note: "Vote on who gets eaten" },
+      { name: 'thematic', sentiment: 'positive', note: "Zombie survival horror" },
+      { name: 'dramatic', sentiment: 'positive', note: "Tense voting moments" },
+      { name: 'bluffing', sentiment: 'positive', note: "Hidden abilities and cards" }
+    ],
+    antiElements: [
+      { name: 'mean-spirited', note: "Sacrificing others feels brutal" },
+      { name: 'player-elimination', note: "Characters die" }
+    ]
+  },
+  {
+    id: 'talisman', name: "Talisman", bggId: 27627, year: 2007,
+    bggRating: 6.1, complexity: 2.1,
+    minPlayers: 2, maxPlayers: 6,
+    minTime: 90, maxTime: 240,
+    elements: [
+      { name: 'adventure', sentiment: 'positive', note: "Fantasy quest progression" },
+      { name: 'dice-rolling', sentiment: 'positive', note: "Movement and combat" },
+      { name: 'thematic', sentiment: 'positive', note: "Classic fantasy adventure" },
+      { name: 'nostalgic', sentiment: 'positive', note: "Gaming classic" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Heavily dice-dependent" },
+      { name: 'too-long', note: "Can drag on" },
+      { name: 'player-elimination', note: "Can get knocked out" }
+    ]
+  },
+  {
+    id: 'old-kings-crown', name: "The Old King's Crown", bggId: 357873, year: 2023,
+    bggRating: 7.8, complexity: 2.7,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 60, maxTime: 120,
+    elements: [
+      { name: 'beautiful', sentiment: 'positive', note: "Stunning fantasy art" },
+      { name: 'hidden-information', sentiment: 'positive', note: "Secret card placement" },
+      { name: 'area-control', sentiment: 'positive', note: "Claim locations in the kingdom" },
+      { name: 'bluffing', sentiment: 'positive', note: "Misdirect opponents" },
+      { name: 'thematic', sentiment: 'positive', note: "Heirs vying for throne" }
+    ],
+    antiElements: [
+      { name: 'analysis-paralysis', note: "Many options to consider" }
+    ]
+  },
+  {
+    id: 'codenames-duet', name: "Codenames: Duet", bggId: 224037, year: 2017,
+    bggRating: 7.5, complexity: 1.3,
+    minPlayers: NaN, maxPlayers: undefined,
+    minTime: 15, maxTime: 30,
+    elements: [
+      { name: 'cooperative', sentiment: 'positive', note: "Work together to find agents" },
+      { name: 'communication', sentiment: 'positive', note: "Give one-word clues" },
+      { name: 'deduction', sentiment: 'positive', note: "Figure out partner's thinking" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to teach" },
+      { name: 'tense', sentiment: 'positive', note: "Limited turns create pressure" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'summoner-wars', name: "Summoner Wars (Second Edition)", bggId: 332800, year: 2021,
+    bggRating: 7.9, complexity: 2.4,
+    minPlayers: 2, maxPlayers: undefined,
+    minTime: 40, maxTime: undefined,
+    elements: [
+      { name: 'tactical', sentiment: 'positive', note: "Grid-based unit positioning" },
+      { name: 'asymmetric', sentiment: 'positive', note: "Each faction plays differently" },
+      { name: 'hand-management', sentiment: 'positive', note: "Cards are units and resources" },
+      { name: 'confrontational', sentiment: 'positive', note: "Direct combat" },
+      { name: 'strategic', sentiment: 'positive', note: "Positioning and timing matter" }
+    ],
+    antiElements: [
+      { name: 'confrontational', note: "Direct conflict only" }
+    ]
+  },
+  {
+    id: 'munchkin', name: "Munchkin", bggId: 1927, year: 2001,
+    bggRating: 5.9, complexity: 1.8,
+    minPlayers: 3, maxPlayers: 6,
+    minTime: 60, maxTime: 120,
+    elements: [
+      { name: 'humorous', sentiment: 'positive', note: "Parodies RPG tropes" },
+      { name: 'take-that', sentiment: 'positive', note: "Mess with other players" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to learn" },
+      { name: 'social', sentiment: 'positive', note: "Casual fun with friends" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Card luck dominates" },
+      { name: 'too-long', note: "Can overstay welcome" },
+      { name: 'kingmaking', note: "Winner often decided by who gets ganged up on" }
+    ]
+  },
+  {
+    id: 'cash-n-guns', name: "Cash 'n Guns", bggId: 155362, year: 2014,
+    bggRating: 6.9, complexity: 1.1,
+    minPlayers: 4, maxPlayers: 8,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'bluffing', sentiment: 'positive', note: "Point foam guns, maybe bluffing" },
+      { name: 'social', sentiment: 'positive', note: "Hilarious standoffs" },
+      { name: 'accessible', sentiment: 'positive', note: "Anyone can play" },
+      { name: 'exciting', sentiment: 'positive', note: "Tense reveals" }
+    ],
+    antiElements: [
+      { name: 'player-elimination', note: "Can get knocked out" }
+    ]
+  },
+  {
+    id: 'tokyo-highway', name: "Tokyo Highway", bggId: 228762, year: 2016,
+    bggRating: 6.6, complexity: 1.5,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 30, maxTime: 50,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Physical stacking challenge" },
+      { name: 'beautiful', sentiment: 'positive', note: "Creates stunning sculptures" },
+      { name: 'unique', sentiment: 'positive', note: "Unlike other games" },
+      { name: 'tense', sentiment: 'positive', note: "Will it fall?" }
+    ],
+    antiElements: [
+      { name: 'fiddly', note: "Pieces can be hard to place" }
+    ]
+  },
+  {
+    id: 'stella', name: "Stella: Dixit Universe", bggId: 329845, year: 2021,
+    bggRating: 7.3, complexity: 1.2,
+    minPlayers: 3, maxPlayers: 6,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'beautiful', sentiment: 'positive', note: "Dixit's gorgeous art" },
+      { name: 'social', sentiment: 'positive', note: "See how others think" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy rules" },
+      { name: 'push-your-luck', sentiment: 'positive', note: "Risk picking more cards" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'mystery-house', name: "Mystery House", bggId: 269537, year: 2019,
+    bggRating: 6.7, complexity: 2.1,
+    minPlayers: 1, maxPlayers: 5,
+    minTime: 60, maxTime: undefined,
+    elements: [
+      { name: 'puzzle-solving', sentiment: 'positive', note: "Escape room in a box" },
+      { name: 'cooperative', sentiment: 'positive', note: "Work together to escape" },
+      { name: 'unique', sentiment: 'positive', note: "3D house you look into" },
+      { name: 'thematic', sentiment: 'positive', note: "Immersive mystery" }
+    ],
+    antiElements: [
+      { name: 'one-shot', note: "Can only play scenarios once" },
+      { name: 'app-required', note: "Needs companion app" }
+    ]
+  },
+  {
+    id: 'thunderstone', name: "Thunderstone", bggId: 53953, year: 2009,
+    bggRating: 6.9, complexity: 2.7,
+    minPlayers: 1, maxPlayers: 5,
+    minTime: 45, maxTime: 60,
+    elements: [
+      { name: 'deckbuilding', sentiment: 'positive', note: "Build deck to fight monsters" },
+      { name: 'dungeon-crawl', sentiment: 'positive', note: "Delve deeper for tougher foes" },
+      { name: 'thematic', sentiment: 'positive', note: "Fantasy adventure" },
+      { name: 'strategic', sentiment: 'positive', note: "Balance village and dungeon" }
+    ],
+    antiElements: [
+      { name: 'fiddly', note: "Light calculations each turn" }
+    ]
+  },
+  {
+    id: 'nmbr9', name: "NMBR 9", bggId: 217449, year: 2017,
+    bggRating: 7, complexity: 1.4,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 20, maxTime: undefined,
+    elements: [
+      { name: 'puzzle-solving', sentiment: 'positive', note: "Tetris-like tile stacking" },
+      { name: 'quick', sentiment: 'positive', note: "Fast gameplay" },
+      { name: 'simultaneous', sentiment: 'positive', note: "Everyone plays at once" },
+      { name: 'satisfying', sentiment: 'positive', note: "Building tall feels good" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'turing-machine', name: "Turing Machine", bggId: 356123, year: 2022,
+    bggRating: 7.7, complexity: 2.4,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 20, maxTime: undefined,
+    elements: [
+      { name: 'deduction', sentiment: 'positive', note: "Logic puzzle with punch cards" },
+      { name: 'unique', sentiment: 'positive', note: "Analog computer mechanism" },
+      { name: 'elegant', sentiment: 'positive', note: "Clever design" },
+      { name: 'solo-friendly', sentiment: 'positive', note: "Great solo experience" }
+    ],
+    antiElements: [
+      { name: 'analysis-paralysis', note: "Can get stuck" }
+    ]
+  },
+  {
+    id: 'hako-onna', name: "Hako Onna", bggId: 228460, year: 2015,
+    bggRating: 6.5, complexity: 2,
+    minPlayers: 3, maxPlayers: 5,
+    minTime: 30, maxTime: 60,
+    elements: [
+      { name: 'hidden-movement', sentiment: 'positive', note: "Ghost hunts invisibly" },
+      { name: 'thematic', sentiment: 'positive', note: "Japanese horror atmosphere" },
+      { name: 'tense', sentiment: 'positive', note: "Dread builds" },
+      { name: 'asymmetric', sentiment: 'positive', note: "Ghost vs visitors" }
+    ],
+    antiElements: [
+      { name: 'fiddly', note: "Memory element can be tricky" }
+    ]
+  },
+  {
+    id: 'star-wars-rebellion', name: "Star Wars: Rebellion", bggId: 187645, year: 2016,
+    bggRating: 8.4, complexity: 3.7,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 180, maxTime: 240,
+    elements: [
+      { name: 'thematic', sentiment: 'positive', note: "Captures the original trilogy perfectly" },
+      { name: 'asymmetric', sentiment: 'positive', note: "Empire hunts, Rebels hide" },
+      { name: 'epic-scope', sentiment: 'positive', note: "Galaxy-spanning conflict" },
+      { name: 'dramatic', sentiment: 'positive', note: "Cinematic moments constantly" },
+      { name: 'cat-and-mouse', sentiment: 'positive', note: "Hidden rebel base creates tension" },
+      { name: 'narrative', sentiment: 'positive', note: "Stories emerge from missions" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "3-4 hour games" },
+      { name: 'overwhelming', note: "Lots of systems to learn" }
+    ]
+  },
+  {
+    id: 'nemesis', name: "Nemesis", bggId: 167355, year: 2018,
+    bggRating: 8.3, complexity: 3.4,
+    minPlayers: 1, maxPlayers: 5,
+    minTime: 90, maxTime: 180,
+    elements: [
+      { name: 'thematic', sentiment: 'positive', note: "Alien movie in a box" },
+      { name: 'tense', sentiment: 'positive', note: "Every noise draw is terrifying" },
+      { name: 'semi-cooperative', sentiment: 'positive', note: "Hidden objectives may conflict" },
+      { name: 'narrative', sentiment: 'positive', note: "Emergent horror stories" },
+      { name: 'dramatic', sentiment: 'positive', note: "Deaths are memorable" },
+      { name: 'exploration', sentiment: 'positive', note: "Discover rooms as you go" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "Can run 3+ hours" },
+      { name: 'too-random', note: "Dice and card luck can be brutal" },
+      { name: 'player-elimination', note: "Can die mid-game" }
+    ]
+  },
+  {
+    id: 'dune-imperium-uprising', name: "Dune: Imperium Uprising", bggId: 397598, year: 2024,
+    bggRating: 8.7, complexity: 3,
+    minPlayers: 1, maxPlayers: 6,
+    minTime: 60, maxTime: 120,
+    elements: [
+      { name: 'deckbuilding', sentiment: 'positive', note: "Build your deck of cards" },
+      { name: 'worker-placement', sentiment: 'positive', note: "Place agents to take actions" },
+      { name: 'thematic', sentiment: 'positive', note: "Dune universe comes alive" },
+      { name: 'strategic', sentiment: 'positive', note: "Multiple paths to victory" },
+      { name: 'combat', sentiment: 'positive', note: "Conflict track battles" },
+      { name: 'engine-building', sentiment: 'positive', note: "Combos build over time" }
+    ],
+    antiElements: [
+      { name: 'analysis-paralysis', note: "Many options each turn" }
+    ]
+  },
+  {
+    id: 'oath', name: "Oath: Chronicles of Empire and Exile", bggId: 291572, year: 2021,
+    bggRating: 7.7, complexity: 3.9,
+    minPlayers: 1, maxPlayers: 6,
+    minTime: 45, maxTime: 150,
+    elements: [
+      { name: 'legacy-lite', sentiment: 'positive', note: "Game state persists between plays" },
+      { name: 'narrative', sentiment: 'positive', note: "Stories emerge from play" },
+      { name: 'asymmetric', sentiment: 'positive', note: "Chancellor vs Exiles" },
+      { name: 'beautiful', sentiment: 'positive', note: "Kyle Ferrin's stunning art" },
+      { name: 'political', sentiment: 'positive', note: "Alliances and betrayals" },
+      { name: 'unique', sentiment: 'positive', note: "Nothing else like it" }
+    ],
+    antiElements: [
+      { name: 'learning-cliff', note: "Hard to grok initially" },
+      { name: 'kingmaking', note: "End-game can feel arbitrary" },
+      { name: 'requires-group', note: "Best with consistent group" }
+    ]
+  },
+  {
+    id: 'western-legends', name: "Western Legends", bggId: 232405, year: 2018,
+    bggRating: 7.6, complexity: 2.6,
+    minPlayers: 2, maxPlayers: 6,
+    minTime: 60, maxTime: 90,
+    elements: [
+      { name: 'sandbox', sentiment: 'positive', note: "Do whatever you want in the Old West" },
+      { name: 'thematic', sentiment: 'positive', note: "Poker, mining, duels, robbery" },
+      { name: 'narrative', sentiment: 'positive', note: "Your outlaw story unfolds" },
+      { name: 'variable-goals', sentiment: 'positive', note: "Many paths to victory" },
+      { name: 'beautiful', sentiment: 'positive', note: "Gorgeous Western art" }
+    ],
+    antiElements: [
+      { name: 'chaotic', note: "Can feel directionless" },
+      { name: 'too-random', note: "Poker and card luck" }
+    ]
+  },
+  {
+    id: 'arabian-nights', name: "Tales of the Arabian Nights", bggId: 34119, year: 2009,
+    bggRating: 6.8, complexity: 2,
+    minPlayers: 1, maxPlayers: 6,
+    minTime: 120, maxTime: 180,
+    elements: [
+      { name: 'narrative', sentiment: 'positive', note: "Massive book of stories" },
+      { name: 'thematic', sentiment: 'positive', note: "1001 Nights atmosphere" },
+      { name: 'adventure', sentiment: 'positive', note: "Journey across the map" },
+      { name: 'humorous', sentiment: 'positive', note: "Ridiculous situations arise" },
+      { name: 'unique', sentiment: 'positive', note: "Nothing else like it" }
+    ],
+    antiElements: [
+      { name: 'no-strategy', note: "Choices often don't matter" },
+      { name: 'too-long', note: "Can drag on" },
+      { name: 'too-random', note: "Outcomes feel arbitrary" }
+    ]
+  },
+  {
+    id: 'near-and-far', name: "Near and Far", bggId: 195049, year: 2017,
+    bggRating: 7.4, complexity: 2.6,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 90, maxTime: 120,
+    elements: [
+      { name: 'narrative', sentiment: 'positive', note: "Story encounters on map" },
+      { name: 'exploration', sentiment: 'positive', note: "Discover new locations" },
+      { name: 'beautiful', sentiment: 'positive', note: "Ryan Laukat's gorgeous art" },
+      { name: 'campaign', sentiment: 'positive', note: "Connected scenarios" },
+      { name: 'worker-placement', sentiment: 'positive', note: "Town actions" }
+    ],
+    antiElements: [
+      { name: 'fiddly', note: "Lots of small rules" }
+    ]
+  },
+  {
+    id: 'above-and-below', name: "Above and Below", bggId: 172818, year: 2015,
+    bggRating: 7.2, complexity: 2.5,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 90, maxTime: undefined,
+    elements: [
+      { name: 'narrative', sentiment: 'positive', note: "Cave exploration stories" },
+      { name: 'engine-building', sentiment: 'positive', note: "Build your village" },
+      { name: 'beautiful', sentiment: 'positive', note: "Ryan Laukat art" },
+      { name: 'exploration', sentiment: 'positive', note: "Delve into caverns" },
+      { name: 'push-your-luck', sentiment: 'positive', note: "Risk in encounters" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Encounter luck varies" }
+    ]
+  },
+  {
+    id: 'arkham-horror', name: "Arkham Horror", bggId: 15987, year: 2005,
+    bggRating: 7.2, complexity: 3.6,
+    minPlayers: 1, maxPlayers: 8,
+    minTime: 120, maxTime: 240,
+    elements: [
+      { name: 'thematic', sentiment: 'positive', note: "Lovecraftian horror" },
+      { name: 'cooperative', sentiment: 'positive', note: "Fight Ancient Ones together" },
+      { name: 'narrative', sentiment: 'positive', note: "Encounter stories" },
+      { name: 'dice-rolling', sentiment: 'positive', note: "Skill checks" },
+      { name: 'epic-scope', sentiment: 'positive', note: "Save the world" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "3-4+ hour games" },
+      { name: 'fiddly', note: "Many tokens and rules" },
+      { name: 'too-random', note: "Dice and cards can crush you" }
+    ]
+  },
+  {
+    id: 'ghost-stories', name: "Ghost Stories", bggId: 37046, year: 2008,
+    bggRating: 7.3, complexity: 2.9,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 60, maxTime: undefined,
+    elements: [
+      { name: 'cooperative', sentiment: 'positive', note: "Defend village from ghosts" },
+      { name: 'difficult', sentiment: 'positive', note: "Brutally hard" },
+      { name: 'thematic', sentiment: 'positive', note: "Chinese supernatural theme" },
+      { name: 'tense', sentiment: 'positive', note: "Always on the edge" },
+      { name: 'dice-rolling', sentiment: 'positive', note: "Combat resolution" }
+    ],
+    antiElements: [
+      { name: 'too-hard', note: "Can feel impossible" },
+      { name: 'too-random', note: "Bad luck = loss" }
+    ]
+  },
+  {
+    id: 'ticket-to-ride-europe', name: "Ticket to Ride: Europe", bggId: 14996, year: 2005,
+    bggRating: 7.5, complexity: 1.9,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 30, maxTime: 60,
+    elements: [
+      { name: 'accessible', sentiment: 'positive', note: "Perfect gateway game" },
+      { name: 'set-collection', sentiment: 'positive', note: "Collect train cards" },
+      { name: 'network-building', sentiment: 'positive', note: "Connect cities" },
+      { name: 'satisfying', sentiment: 'positive', note: "Completing routes feels great" },
+      { name: 'beautiful', sentiment: 'positive', note: "Nice map and trains" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "Experienced gamers may want more" }
+    ]
+  },
+  {
+    id: 'lotr-lcg', name: "The Lord of the Rings: The Card Game", bggId: 77423, year: 2011,
+    bggRating: 7.6, complexity: 3.4,
+    minPlayers: 1, maxPlayers: 2,
+    minTime: 30, maxTime: 90,
+    elements: [
+      { name: 'cooperative', sentiment: 'positive', note: "Quest together through Middle-earth" },
+      { name: 'deckbuilding', sentiment: 'positive', note: "Construct your deck before play" },
+      { name: 'thematic', sentiment: 'positive', note: "Tolkien lore throughout" },
+      { name: 'challenging', sentiment: 'positive', note: "Tough scenarios" },
+      { name: 'solo-friendly', sentiment: 'positive', note: "Great solo experience" }
+    ],
+    antiElements: [
+      { name: 'expensive', note: "Many expansions needed" },
+      { name: 'too-random', note: "Encounter deck can be brutal" }
+    ]
+  },
+  {
+    id: 'sheriff-of-nottingham', name: "Sheriff of Nottingham", bggId: 157969, year: 2014,
+    bggRating: 7, complexity: 1.7,
+    minPlayers: 3, maxPlayers: 5,
+    minTime: 60, maxTime: undefined,
+    elements: [
+      { name: 'bluffing', sentiment: 'positive', note: "Lie about your goods" },
+      { name: 'negotiation', sentiment: 'positive', note: "Bribe the Sheriff" },
+      { name: 'social', sentiment: 'positive', note: "Reading other players" },
+      { name: 'humorous', sentiment: 'positive', note: "Funny moments guaranteed" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to teach" }
+    ],
+    antiElements: [
+      { name: 'requires-lying', note: "Not fun if you can't bluff" }
+    ]
+  },
+  {
+    id: 'deception-murder-hk', name: "Deception: Murder in Hong Kong", bggId: 156129, year: 2014,
+    bggRating: 7.4, complexity: 1.5,
+    minPlayers: 4, maxPlayers: 12,
+    minTime: 20, maxTime: undefined,
+    elements: [
+      { name: 'hidden-traitor', sentiment: 'positive', note: "Murderer among you" },
+      { name: 'deduction', sentiment: 'positive', note: "Interpret forensic clues" },
+      { name: 'social', sentiment: 'positive', note: "Discussion and accusation" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to teach" },
+      { name: 'quick', sentiment: 'positive', note: "20 minute games" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'chronicles-of-crime', name: "Chronicles of Crime", bggId: 239188, year: 2018,
+    bggRating: 7.5, complexity: 2,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 60, maxTime: 90,
+    elements: [
+      { name: 'deduction', sentiment: 'positive', note: "Solve crime mysteries" },
+      { name: 'cooperative', sentiment: 'positive', note: "Work together" },
+      { name: 'app-driven', sentiment: 'positive', note: "App enhances experience" },
+      { name: 'thematic', sentiment: 'positive', note: "Detective noir" },
+      { name: 'narrative', sentiment: 'positive', note: "Unfolding story" }
+    ],
+    antiElements: [
+      { name: 'app-required', note: "Must use app" },
+      { name: 'one-shot', note: "Cases only played once" }
+    ]
+  },
+  {
+    id: 'dice-forge', name: "Dice Forge", bggId: 194594, year: 2017,
+    bggRating: 7.2, complexity: 1.8,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 45, maxTime: undefined,
+    elements: [
+      { name: 'dice-crafting', sentiment: 'positive', note: "Upgrade your dice faces" },
+      { name: 'engine-building', sentiment: 'positive', note: "Better dice = more resources" },
+      { name: 'unique', sentiment: 'positive', note: "Physical dice modification" },
+      { name: 'beautiful', sentiment: 'positive', note: "Gorgeous production" },
+      { name: 'satisfying', sentiment: 'positive', note: "Rolling upgraded dice feels great" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Still dice luck" }
+    ]
+  },
+  {
+    id: 'celestia', name: "Celestia", bggId: 175117, year: 2015,
+    bggRating: 7, complexity: 1.2,
+    minPlayers: 2, maxPlayers: 6,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'push-your-luck', sentiment: 'positive', note: "Stay on airship or bail?" },
+      { name: 'beautiful', sentiment: 'positive', note: "Gorgeous airship art" },
+      { name: 'accessible', sentiment: 'positive', note: "Simple rules" },
+      { name: 'social', sentiment: 'positive', note: "Read the captain's ability" },
+      { name: 'quick', sentiment: 'positive', note: "Fast games" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Luck-heavy" }
+    ]
+  },
+  {
+    id: 'runebound', name: "Runebound", bggId: 181530, year: 2015,
+    bggRating: 7.1, complexity: 2.8,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 120, maxTime: 180,
+    elements: [
+      { name: 'adventure', sentiment: 'positive', note: "Fantasy quest experience" },
+      { name: 'exploration', sentiment: 'positive', note: "Discover encounters" },
+      { name: 'dice-rolling', sentiment: 'positive', note: "Combat with custom dice" },
+      { name: 'thematic', sentiment: 'positive', note: "Terrinoth setting" },
+      { name: 'character-building', sentiment: 'positive', note: "Level up your hero" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "Can run 3+ hours" },
+      { name: 'too-random', note: "Encounter luck varies" }
+    ]
+  },
+  {
+    id: 'tsuro', name: "Tsuro", bggId: 16992, year: 2004,
+    bggRating: 6.5, complexity: 1.1,
+    minPlayers: 2, maxPlayers: 8,
+    minTime: 15, maxTime: 20,
+    elements: [
+      { name: 'elegant', sentiment: 'positive', note: "Extremely simple rules" },
+      { name: 'quick', sentiment: 'positive', note: "Very fast games" },
+      { name: 'accessible', sentiment: 'positive', note: "Anyone can play instantly" },
+      { name: 'beautiful', sentiment: 'positive', note: "Nice tile art" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "Not much strategy" },
+      { name: 'player-elimination', note: "Can be knocked out early" }
+    ]
+  },
+  {
+    id: 'forgotten-waters', name: "Forgotten Waters", bggId: 302723, year: 2020,
+    bggRating: 7.6, complexity: 2.2,
+    minPlayers: 3, maxPlayers: 7,
+    minTime: 120, maxTime: 240,
+    elements: [
+      { name: 'narrative', sentiment: 'positive', note: "App-driven pirate stories" },
+      { name: 'humorous', sentiment: 'positive', note: "Comedy throughout" },
+      { name: 'cooperative', sentiment: 'positive', note: "Crew works together" },
+      { name: 'thematic', sentiment: 'positive', note: "Silly pirate adventure" },
+      { name: 'social', sentiment: 'positive', note: "Great group experience" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "Scenarios run 3-4 hours" },
+      { name: 'app-required', note: "Must use app" }
+    ]
+  },
+  {
+    id: 'nidavellir', name: "Nidavellir", bggId: 293014, year: 2020,
+    bggRating: 7.6, complexity: 1.8,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 45, maxTime: undefined,
+    elements: [
+      { name: 'bidding', sentiment: 'positive', note: "Auction for dwarves" },
+      { name: 'set-collection', sentiment: 'positive', note: "Collect dwarf classes" },
+      { name: 'engine-building', sentiment: 'positive', note: "Coin values grow" },
+      { name: 'beautiful', sentiment: 'positive', note: "Stunning dwarf art" },
+      { name: 'elegant', sentiment: 'positive', note: "Simple but deep" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'time-stories', name: "T.I.M.E Stories", bggId: 146508, year: 2015,
+    bggRating: 7.2, complexity: 2.5,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 90, maxTime: undefined,
+    elements: [
+      { name: 'narrative', sentiment: 'positive', note: "Time travel mysteries" },
+      { name: 'cooperative', sentiment: 'positive', note: "Solve together" },
+      { name: 'puzzle-solving', sentiment: 'positive', note: "Decipher clues" },
+      { name: 'unique', sentiment: 'positive', note: "Decksploration mechanism" },
+      { name: 'thematic', sentiment: 'positive', note: "Strong scenarios" }
+    ],
+    antiElements: [
+      { name: 'one-shot', note: "Scenarios only played once" },
+      { name: 'expensive', note: "Need to buy expansions" }
+    ]
+  },
+  {
+    id: 'legends-of-andor', name: "Legends of Andor", bggId: 127398, year: 2012,
+    bggRating: 7.2, complexity: 2.7,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 60, maxTime: 90,
+    elements: [
+      { name: 'cooperative', sentiment: 'positive', note: "Defend the castle together" },
+      { name: 'puzzle-solving', sentiment: 'positive', note: "Time management puzzle" },
+      { name: 'thematic', sentiment: 'positive', note: "Fantasy adventure" },
+      { name: 'narrative', sentiment: 'positive', note: "Story unfolds" },
+      { name: 'beautiful', sentiment: 'positive', note: "Gorgeous board" }
+    ],
+    antiElements: [
+      { name: 'restrictive', note: "Optimal path feels forced" }
+    ]
+  },
+  {
+    id: 'quoridor', name: "Quoridor", bggId: 624, year: 1997,
+    bggRating: 7, complexity: 1.8,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'abstract', sentiment: 'positive', note: "Pure strategy" },
+      { name: 'elegant', sentiment: 'positive', note: "Simple rules" },
+      { name: 'quick', sentiment: 'positive', note: "Fast games" },
+      { name: 'strategic', sentiment: 'positive', note: "Wall placement matters" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'blokus', name: "Blokus", bggId: 2453, year: 2000,
+    bggRating: 7, complexity: 1.8,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 20, maxTime: 30,
+    elements: [
+      { name: 'abstract', sentiment: 'positive', note: "Tetris-like territory" },
+      { name: 'elegant', sentiment: 'positive', note: "Simple rules" },
+      { name: 'accessible', sentiment: 'positive', note: "Family-friendly" },
+      { name: 'strategic', sentiment: 'positive', note: "Blocking and expanding" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'onitama', name: "Onitama", bggId: 160477, year: 2014,
+    bggRating: 7.4, complexity: 1.7,
+    minPlayers: 2, maxPlayers: undefined,
+    minTime: 15, maxTime: 20,
+    elements: [
+      { name: 'abstract', sentiment: 'positive', note: "Chess-like but accessible" },
+      { name: 'elegant', sentiment: 'positive', note: "Simple, brilliant" },
+      { name: 'quick', sentiment: 'positive', note: "Fast games" },
+      { name: 'strategic', sentiment: 'positive', note: "Card passing creates depth" },
+      { name: 'beautiful', sentiment: 'positive', note: "Nice components" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'stardew-valley', name: "Stardew Valley: The Board Game", bggId: 332290, year: 2021,
+    bggRating: 7.4, complexity: 2.6,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 45, maxTime: 200,
+    elements: [
+      { name: 'cooperative', sentiment: 'positive', note: "Farm together" },
+      { name: 'thematic', sentiment: 'positive', note: "Captures the video game feel" },
+      { name: 'cozy', sentiment: 'positive', note: "Relaxing farm life" },
+      { name: 'engine-building', sentiment: 'positive', note: "Develop your farm" },
+      { name: 'nostalgic', sentiment: 'positive', note: "For video game fans" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "Can run very long" },
+      { name: 'too-random', note: "Season deck luck" }
+    ]
+  },
+  {
+    id: 'bullet-star', name: "Bullet⭐", bggId: 307040, year: 2021,
+    bggRating: 7.4, complexity: 2.3,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'real-time', sentiment: 'positive', note: "Frantic simultaneous play" },
+      { name: 'puzzle-solving', sentiment: 'positive', note: "Clear bullets from board" },
+      { name: 'unique', sentiment: 'positive', note: "Bullet-hell in board game form" },
+      { name: 'exciting', sentiment: 'positive', note: "Tense and fast" },
+      { name: 'asymmetric', sentiment: 'positive', note: "Each heroine plays differently" }
+    ],
+    antiElements: [
+      { name: 'stressful', note: "Time pressure is intense" }
+    ]
+  },
+  {
+    id: 'zombie-15', name: "Zombie 15'", bggId: 144826, year: 2014,
+    bggRating: 6.7, complexity: 2,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'real-time', sentiment: 'positive', note: "15-minute timed scenarios" },
+      { name: 'cooperative', sentiment: 'positive', note: "Escape together" },
+      { name: 'thematic', sentiment: 'positive', note: "Teen zombie survival" },
+      { name: 'exciting', sentiment: 'positive', note: "Frantic action" }
+    ],
+    antiElements: [
+      { name: 'stressful', note: "Time pressure is intense" }
+    ]
+  },
+  {
+    id: 'wings-of-war', name: "Wings of War", bggId: 9203, year: 2004,
+    bggRating: 7, complexity: 1.9,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 30, maxTime: 60,
+    elements: [
+      { name: 'thematic', sentiment: 'positive', note: "WWI dogfighting" },
+      { name: 'simultaneous', sentiment: 'positive', note: "All plan moves together" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to learn" },
+      { name: 'tactical', sentiment: 'positive', note: "Maneuver for shots" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Damage deck luck" }
+    ]
+  },
+  {
+    id: 'monster-lands', name: "Monster Lands", bggId: 228899, year: 2018,
+    bggRating: 7.2, complexity: 3.2,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 90, maxTime: 120,
+    elements: [
+      { name: 'worker-placement', sentiment: 'positive', note: "Assign mercenaries" },
+      { name: 'dice-rolling', sentiment: 'positive', note: "Combat resolution" },
+      { name: 'thematic', sentiment: 'positive', note: "Hunt monsters for glory" },
+      { name: 'engine-building', sentiment: 'positive', note: "Build your troop" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Dice combat swings" }
+    ]
+  },
+  {
+    id: 'ahoy', name: "Ahoy", bggId: 350316, year: 2022,
+    bggRating: 7.5, complexity: 2.2,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 45, maxTime: 75,
+    elements: [
+      { name: 'asymmetric', sentiment: 'positive', note: "Each faction plays differently" },
+      { name: 'beautiful', sentiment: 'positive', note: "Kyle Ferrin art" },
+      { name: 'area-control', sentiment: 'positive', note: "Control sea regions" },
+      { name: 'accessible', sentiment: 'positive', note: "Lighter than Root" },
+      { name: 'strategic', sentiment: 'positive', note: "Meaningful decisions" }
+    ],
+    antiElements: [
+      { name: 'imbalanced-at-low-counts', note: "Best at 3-4" }
+    ]
+  },
+  {
+    id: 'illiterati', name: "Illiterati", bggId: 340080, year: 2022,
+    bggRating: 7.3, complexity: 1.6,
+    minPlayers: 1, maxPlayers: 5,
+    minTime: 30, maxTime: 60,
+    elements: [
+      { name: 'cooperative', sentiment: 'positive', note: "Save books together" },
+      { name: 'real-time', sentiment: 'positive', note: "Timed word-building" },
+      { name: 'word-game', sentiment: 'positive', note: "Spell words from letters" },
+      { name: 'thematic', sentiment: 'positive', note: "Fight book-burning villains" }
+    ],
+    antiElements: [
+      { name: 'stressful', note: "Time pressure" }
+    ]
+  },
+  {
+    id: 'twilight-inscription', name: "Twilight Inscription", bggId: 361545, year: 2022,
+    bggRating: 7.2, complexity: 2.7,
+    minPlayers: 1, maxPlayers: 8,
+    minTime: 90, maxTime: 120,
+    elements: [
+      { name: 'roll-and-write', sentiment: 'positive', note: "Mark sheets based on dice" },
+      { name: 'thematic', sentiment: 'positive', note: "Twilight Imperium universe" },
+      { name: 'epic-scope', sentiment: 'positive', note: "Space empire building" },
+      { name: 'simultaneous', sentiment: 'positive', note: "All play at once" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "Long for roll-and-write" }
+    ]
+  },
+  {
+    id: 'sherlock-holmes-cd', name: "Sherlock Holmes: Consulting Detective", bggId: 2511, year: 1981,
+    bggRating: 7.7, complexity: 2.7,
+    minPlayers: 1, maxPlayers: 8,
+    minTime: 60, maxTime: 120,
+    elements: [
+      { name: 'deduction', sentiment: 'positive', note: "Solve mysteries" },
+      { name: 'narrative', sentiment: 'positive', note: "Rich Victorian stories" },
+      { name: 'cooperative', sentiment: 'positive', note: "Discuss clues together" },
+      { name: 'thematic', sentiment: 'positive', note: "Feel like Sherlock" },
+      { name: 'unique', sentiment: 'positive', note: "No board, just casebook" }
+    ],
+    antiElements: [
+      { name: 'one-shot', note: "Cases only once" },
+      { name: 'frustrating', note: "Solutions can feel unfair" }
+    ]
+  },
+  {
+    id: 'got-lcg', name: "A Game of Thrones: The Card Game", bggId: 169255, year: 2015,
+    bggRating: 7.6, complexity: 3.3,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 60, maxTime: 120,
+    elements: [
+      { name: 'deckbuilding', sentiment: 'positive', note: "Construct deck before play" },
+      { name: 'thematic', sentiment: 'positive', note: "Westeros politics" },
+      { name: 'strategic', sentiment: 'positive', note: "Plot card mind games" },
+      { name: 'competitive', sentiment: 'positive', note: "Direct competition" }
+    ],
+    antiElements: [
+      { name: 'expensive', note: "LCG model requires buying packs" }
+    ]
+  },
+  {
+    id: 'anomia', name: "Anomia", bggId: 67877, year: 2010,
+    bggRating: 6.8, complexity: 1.1,
+    minPlayers: 3, maxPlayers: 6,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'real-time', sentiment: 'positive', note: "Race to shout answers" },
+      { name: 'word-game', sentiment: 'positive', note: "Name things in categories" },
+      { name: 'social', sentiment: 'positive', note: "Hilarious brain freezes" },
+      { name: 'accessible', sentiment: 'positive', note: "Anyone can play" },
+      { name: 'quick', sentiment: 'positive', note: "Fast rounds" }
+    ],
+    antiElements: [
+      { name: 'stressful', note: "Pressure to think fast" }
+    ]
+  },
+  {
+    id: 'jungle-speed', name: "Jungle Speed", bggId: 8098, year: 1997,
+    bggRating: 6.4, complexity: 1.1,
+    minPlayers: 2, maxPlayers: 10,
+    minTime: 10, maxTime: undefined,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Grab the totem!" },
+      { name: 'real-time', sentiment: 'positive', note: "React fast to matches" },
+      { name: 'exciting', sentiment: 'positive', note: "Chaotic fun" },
+      { name: 'accessible', sentiment: 'positive', note: "Simple rules" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Card flip luck" }
+    ]
+  },
+  {
+    id: 'exploding-kittens', name: "Exploding Kittens", bggId: 172225, year: 2015,
+    bggRating: 5.9, complexity: 1.1,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'push-your-luck', sentiment: 'positive', note: "Will you draw an explosion?" },
+      { name: 'humorous', sentiment: 'positive', note: "Silly cat artwork" },
+      { name: 'accessible', sentiment: 'positive', note: "Very simple" },
+      { name: 'take-that', sentiment: 'positive', note: "Target other players" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Mostly luck" },
+      { name: 'player-elimination', note: "Get knocked out" }
+    ]
+  },
+  {
+    id: 'cat-in-the-box', name: "Cat in the Box", bggId: 345972, year: 2022,
+    bggRating: 7.5, complexity: 2.2,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'trick-taking', sentiment: 'positive', note: "Cards have no suits until played" },
+      { name: 'unique', sentiment: 'positive', note: "Quantum superposition theme" },
+      { name: 'strategic', sentiment: 'positive', note: "Declare suits tactically" },
+      { name: 'elegant', sentiment: 'positive', note: "Clever twist on classics" }
+    ],
+    antiElements: [
+      { name: 'brain-burn', note: "Tracking can be taxing" }
+    ]
+  },
+  {
+    id: 'once-upon-a-time', name: "Once Upon a Time", bggId: 1234, year: 1993,
+    bggRating: 6.3, complexity: 1.4,
+    minPlayers: 2, maxPlayers: 6,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'creative', sentiment: 'positive', note: "Tell fairy tales together" },
+      { name: 'narrative', sentiment: 'positive', note: "Stories emerge from play" },
+      { name: 'social', sentiment: 'positive', note: "Fun with right group" },
+      { name: 'accessible', sentiment: 'positive', note: "No rules really" }
+    ],
+    antiElements: [
+      { name: 'requires-creativity', note: "Not fun if shy" },
+      { name: 'chaotic', note: "Stories get weird" }
+    ]
+  },
+  {
+    id: 'house-of-danger', name: "Choose Your Own Adventure: House of Danger", bggId: 249764, year: 2018,
+    bggRating: 5.9, complexity: 1.2,
+    minPlayers: NaN, maxPlayers: undefined,
+    minTime: 60, maxTime: 180,
+    elements: [
+      { name: 'narrative', sentiment: 'positive', note: "Choose your path" },
+      { name: 'nostalgic', sentiment: 'positive', note: "Classic book series" },
+      { name: 'cooperative', sentiment: 'positive', note: "Decide together" },
+      { name: 'accessible', sentiment: 'positive', note: "No rules" }
+    ],
+    antiElements: [
+      { name: 'no-strategy', note: "Choices feel arbitrary" }
+    ]
+  },
+  {
+    id: 'halli-galli', name: "Halli Galli", bggId: 2944, year: 1990,
+    bggRating: 6, complexity: 1,
+    minPlayers: 2, maxPlayers: 6,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'real-time', sentiment: 'positive', note: "Ring bell first!" },
+      { name: 'dexterity', sentiment: 'positive', note: "Speed reaction" },
+      { name: 'accessible', sentiment: 'positive', note: "Kids love it" },
+      { name: 'exciting', sentiment: 'positive', note: "Frantic fun" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: '5-minute-dungeon', name: "5 Minute Dungeon", bggId: 207830, year: 2017,
+    bggRating: 6.9, complexity: 1.2,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 5, maxTime: 30,
+    elements: [
+      { name: 'real-time', sentiment: 'positive', note: "Beat the timer!" },
+      { name: 'cooperative', sentiment: 'positive', note: "Work together frantically" },
+      { name: 'exciting', sentiment: 'positive', note: "Adrenaline rush" },
+      { name: 'accessible', sentiment: 'positive', note: "Simple rules" },
+      { name: 'thematic', sentiment: 'positive', note: "Dungeon crawl chaos" }
+    ],
+    antiElements: [
+      { name: 'stressful', note: "Time pressure is intense" }
+    ]
+  },
+  {
+    id: 'saboteur', name: "Saboteur", bggId: 9220, year: 2004,
+    bggRating: 6.3, complexity: 1.2,
+    minPlayers: 3, maxPlayers: 10,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'hidden-traitor', sentiment: 'positive', note: "Saboteurs among dwarves" },
+      { name: 'social', sentiment: 'positive', note: "Accusations fly" },
+      { name: 'accessible', sentiment: 'positive', note: "Simple rules" },
+      { name: 'bluffing', sentiment: 'positive', note: "Hide your role" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Card luck dominates" }
+    ]
+  },
+  {
+    id: 'bohnanza', name: "Bohnanza", bggId: 11, year: 1997,
+    bggRating: 7, complexity: 1.7,
+    minPlayers: 2, maxPlayers: 7,
+    minTime: 45, maxTime: undefined,
+    elements: [
+      { name: 'trading', sentiment: 'positive', note: "Constant negotiation" },
+      { name: 'social', sentiment: 'positive', note: "Every turn involves everyone" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to learn" },
+      { name: 'humorous', sentiment: 'positive', note: "Bean puns everywhere" },
+      { name: 'hand-management', sentiment: 'positive', note: "Can't rearrange cards" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'no-thanks', name: "No Thanks!", bggId: 12942, year: 2004,
+    bggRating: 7.1, complexity: 1.1,
+    minPlayers: 3, maxPlayers: 7,
+    minTime: 20, maxTime: undefined,
+    elements: [
+      { name: 'push-your-luck', sentiment: 'positive', note: "Take it or pay?" },
+      { name: 'elegant', sentiment: 'positive', note: "Simple genius" },
+      { name: 'accessible', sentiment: 'positive', note: "Teach in 1 minute" },
+      { name: 'strategic', sentiment: 'positive', note: "Chip management matters" },
+      { name: 'quick', sentiment: 'positive', note: "Fast games" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'timeline', name: "Timeline", bggId: 128664, year: 2012,
+    bggRating: 6.5, complexity: 1,
+    minPlayers: 2, maxPlayers: 8,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'trivia', sentiment: 'positive', note: "Guess historical dates" },
+      { name: 'educational', sentiment: 'positive', note: "Learn history" },
+      { name: 'accessible', sentiment: 'positive', note: "Anyone can play" },
+      { name: 'quick', sentiment: 'positive', note: "Fast rounds" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "Limited replayability" }
+    ]
+  },
+  {
+    id: 'ubongo', name: "Ubongo", bggId: 16986, year: 2003,
+    bggRating: 6.8, complexity: 1.3,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 25, maxTime: undefined,
+    elements: [
+      { name: 'puzzle-solving', sentiment: 'positive', note: "Fit pieces fast" },
+      { name: 'real-time', sentiment: 'positive', note: "Race to solve" },
+      { name: 'accessible', sentiment: 'positive', note: "Family-friendly" },
+      { name: 'exciting', sentiment: 'positive', note: "Tense races" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'mint-works', name: "Mint Works", bggId: 200077, year: 2017,
+    bggRating: 6.6, complexity: 1.5,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 10, maxTime: 20,
+    elements: [
+      { name: 'worker-placement', sentiment: 'positive', note: "Tiny worker placement" },
+      { name: 'portable', sentiment: 'positive', note: "Fits in mint tin" },
+      { name: 'elegant', sentiment: 'positive', note: "Streamlined design" },
+      { name: 'quick', sentiment: 'positive', note: "Very fast games" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "Limited depth" }
+    ]
+  },
+  {
+    id: 'get-bit', name: "Get Bit!", bggId: 30539, year: 2007,
+    bggRating: 6.2, complexity: 1.1,
+    minPlayers: 3, maxPlayers: 6,
+    minTime: 20, maxTime: undefined,
+    elements: [
+      { name: 'bluffing', sentiment: 'positive', note: "Predict opponent cards" },
+      { name: 'humorous', sentiment: 'positive', note: "Removable limbs!" },
+      { name: 'accessible', sentiment: 'positive', note: "Very simple" },
+      { name: 'quick', sentiment: 'positive', note: "Fast games" }
+    ],
+    antiElements: [
+      { name: 'player-elimination', note: "Get eaten" }
+    ]
+  },
+  {
+    id: 'sleeping-queens', name: "Sleeping Queens", bggId: 17053, year: 2005,
+    bggRating: 6.2, complexity: 1.1,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'accessible', sentiment: 'positive', note: "Great for young kids" },
+      { name: 'family-friendly', sentiment: 'positive', note: "All ages can play" },
+      { name: 'quick', sentiment: 'positive', note: "Short games" },
+      { name: 'set-collection', sentiment: 'positive', note: "Wake up queens" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "Adults may be bored" }
+    ]
+  },
+  {
+    id: 'arkham-noir', name: "Arkham Noir", bggId: 218498, year: 2017,
+    bggRating: 6.8, complexity: 2.2,
+    minPlayers: 1, maxPlayers: undefined,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'solo-only', sentiment: 'positive', note: "Designed for solo" },
+      { name: 'thematic', sentiment: 'positive', note: "Noir Lovecraft" },
+      { name: 'puzzle-solving', sentiment: 'positive', note: "Chain clues together" },
+      { name: 'portable', sentiment: 'positive', note: "Small box" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Card luck can block solutions" }
+    ]
+  },
+  {
+    id: 'oh-my-goods', name: "Oh My Goods!", bggId: 183840, year: 2015,
+    bggRating: 6.9, complexity: 2.1,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'engine-building', sentiment: 'positive', note: "Build production chains" },
+      { name: 'push-your-luck', sentiment: 'positive', note: "Gamble on market cards" },
+      { name: 'portable', sentiment: 'positive', note: "Small box" },
+      { name: 'strategic', sentiment: 'positive', note: "Good decisions in small package" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Market draw luck" }
+    ]
+  },
+  {
+    id: 'labyrinth', name: "Labyrinth", bggId: 1219, year: 1986,
+    bggRating: 6.4, complexity: 1.4,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 20, maxTime: undefined,
+    elements: [
+      { name: 'puzzle-solving', sentiment: 'positive', note: "Shift maze to create paths" },
+      { name: 'accessible', sentiment: 'positive', note: "Family classic" },
+      { name: 'nostalgic', sentiment: 'positive', note: "Many grew up with it" },
+      { name: 'tactical', sentiment: 'positive', note: "Plan your route" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'pictionary', name: "Pictionary", bggId: 2281, year: 1985,
+    bggRating: 5.9, complexity: 1.2,
+    minPlayers: 3, maxPlayers: 16,
+    minTime: 90, maxTime: undefined,
+    elements: [
+      { name: 'creative', sentiment: 'positive', note: "Draw clues" },
+      { name: 'social', sentiment: 'positive', note: "Party classic" },
+      { name: 'accessible', sentiment: 'positive', note: "Everyone knows it" },
+      { name: 'humorous', sentiment: 'positive', note: "Bad drawings are funny" }
+    ],
+    antiElements: [
+      { name: 'requires-drawing', note: "Intimidating for some" }
+    ]
+  },
+  {
+    id: 'sequence', name: "Sequence", bggId: 2375, year: 1981,
+    bggRating: 5.8, complexity: 1.3,
+    minPlayers: 2, maxPlayers: 12,
+    minTime: 10, maxTime: 30,
+    elements: [
+      { name: 'abstract', sentiment: 'positive', note: "Get 5 in a row" },
+      { name: 'accessible', sentiment: 'positive', note: "Simple to learn" },
+      { name: 'team-based', sentiment: 'positive', note: "Good for teams" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Card luck dominates" }
+    ]
+  },
+  {
+    id: 'tiny-epic-zombies', name: "Tiny Epic Zombies", bggId: 244536, year: 2018,
+    bggRating: 6.8, complexity: 2.4,
+    minPlayers: 1, maxPlayers: 5,
+    minTime: 30, maxTime: 45,
+    elements: [
+      { name: 'cooperative', sentiment: 'positive', note: "Survive together" },
+      { name: 'thematic', sentiment: 'positive', note: "Zombie survival" },
+      { name: 'portable', sentiment: 'positive', note: "Tiny box, big game" },
+      { name: 'variable-powers', sentiment: 'positive', note: "Different survivors" }
+    ],
+    antiElements: [
+      { name: 'fiddly', note: "Lots packed in small box" }
+    ]
+  },
+  {
+    id: 'tiny-epic-galaxies', name: "Tiny Epic Galaxies", bggId: 163967, year: 2015,
+    bggRating: 7.1, complexity: 2.2,
+    minPlayers: 1, maxPlayers: 5,
+    minTime: 30, maxTime: 45,
+    elements: [
+      { name: 'dice-rolling', sentiment: 'positive', note: "Roll and select dice" },
+      { name: 'engine-building', sentiment: 'positive', note: "Upgrade your empire" },
+      { name: 'portable', sentiment: 'positive', note: "Tiny box" },
+      { name: '4x', sentiment: 'positive', note: "Space empire in small package" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Dice luck" }
+    ]
+  },
+  {
+    id: 'century-spice-road', name: "Century: Spice Road", bggId: 209685, year: 2017,
+    bggRating: 7.3, complexity: 1.8,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 30, maxTime: 45,
+    elements: [
+      { name: 'engine-building', sentiment: 'positive', note: "Build spice conversion engine" },
+      { name: 'elegant', sentiment: 'positive', note: "Simple, satisfying" },
+      { name: 'beautiful', sentiment: 'positive', note: "Gorgeous production" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy gateway" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'button-men', name: "Button Men", bggId: 17, year: 1999,
+    bggRating: 5.9, complexity: 1.5,
+    minPlayers: 2, maxPlayers: undefined,
+    minTime: 5, maxTime: undefined,
+    elements: [
+      { name: 'dice-rolling', sentiment: 'positive', note: "Dice combat" },
+      { name: 'quick', sentiment: 'positive', note: "Very fast" },
+      { name: 'tactical', sentiment: 'positive', note: "Choose which dice to use" },
+      { name: 'portable', sentiment: 'positive', note: "Just buttons" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Dice luck" }
+    ]
+  },
+  {
+    id: 'deadly-doodles', name: "Deadly Doodles", bggId: 268284, year: 2019,
+    bggRating: 6.2, complexity: 1.2,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 15, maxTime: 25,
+    elements: [
+      { name: 'drawing', sentiment: 'positive', note: "Draw dungeon paths" },
+      { name: 'simultaneous', sentiment: 'positive', note: "All play at once" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy rules" },
+      { name: 'quick', sentiment: 'positive', note: "Fast games" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'funemployed', name: "Funemployed", bggId: 142296, year: 2014,
+    bggRating: 6.2, complexity: 1,
+    minPlayers: 3, maxPlayers: 20,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'humorous', sentiment: 'positive', note: "Absurd job interviews" },
+      { name: 'social', sentiment: 'positive', note: "Improv party game" },
+      { name: 'creative', sentiment: 'positive', note: "Make up qualifications" },
+      { name: 'accessible', sentiment: 'positive', note: "No rules" }
+    ],
+    antiElements: [
+      { name: 'requires-improv', note: "Need to be comfortable performing" }
+    ]
+  },
+  {
+    id: 'king-of-dice', name: "King of the Dice", bggId: 269153, year: 2019,
+    bggRating: 6.5, complexity: 1.2,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 20, maxTime: undefined,
+    elements: [
+      { name: 'dice-rolling', sentiment: 'positive', note: "Yahtzee-style sets" },
+      { name: 'push-your-luck', sentiment: 'positive', note: "Press for more?" },
+      { name: 'accessible', sentiment: 'positive', note: "Family-friendly" },
+      { name: 'quick', sentiment: 'positive', note: "Fast games" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Dice luck" }
+    ]
+  },
+  {
+    id: 'coloradd', name: "ColorADD", bggId: 169306, year: 2014,
+    bggRating: 6, complexity: 1,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'educational', sentiment: 'positive', note: "Learn color mixing" },
+      { name: 'accessible', sentiment: 'positive', note: "Very simple" },
+      { name: 'colorblind-friendly', sentiment: 'positive', note: "Uses symbols" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "Very simple" }
+    ]
+  },
+  {
+    id: 'jabbas-palace', name: "Jabba's Palace: A Love Letter Game", bggId: 352855, year: 2022,
+    bggRating: 7.2, complexity: 1.3,
+    minPlayers: 2, maxPlayers: 6,
+    minTime: 20, maxTime: undefined,
+    elements: [
+      { name: 'bluffing', sentiment: 'positive', note: "Love Letter mechanism" },
+      { name: 'deduction', sentiment: 'positive', note: "Guess opponent cards" },
+      { name: 'thematic', sentiment: 'positive', note: "Star Wars theme" },
+      { name: 'quick', sentiment: 'positive', note: "Fast rounds" },
+      { name: 'accessible', sentiment: 'positive', note: "Simple rules" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Card draw luck" }
+    ]
+  },
+  {
+    id: 'tiger-dragon', name: "Tiger & Dragon", bggId: 231511, year: 2017,
+    bggRating: 7, complexity: 1.4,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'climbing', sentiment: 'positive', note: "Shed cards by playing higher" },
+      { name: 'elegant', sentiment: 'positive', note: "Simple tile game" },
+      { name: 'quick', sentiment: 'positive', note: "Fast rounds" },
+      { name: 'strategic', sentiment: 'positive', note: "Hand management" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'gaia-project', name: "Gaia Project", bggId: 220308, year: 2017,
+    bggRating: 8.5, complexity: 4.3,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 60, maxTime: 150,
+    elements: [
+      { name: 'engine-building', sentiment: 'positive', note: "Develop your civilization" },
+      { name: 'asymmetric', sentiment: 'positive', note: "14 unique alien factions" },
+      { name: 'strategic', sentiment: 'positive', note: "Terra Mystica in space" },
+      { name: 'area-control', sentiment: 'positive', note: "Colonize planets" },
+      { name: 'replayable', sentiment: 'positive', note: "Variable setup and factions" }
+    ],
+    antiElements: [
+      { name: 'analysis-paralysis', note: "Overwhelming options" },
+      { name: 'too-long', note: "Can run 3+ hours" },
+      { name: 'learning-cliff', note: "Steep learning curve" }
+    ]
+  },
+  {
+    id: 'potion-explosion', name: "Potion Explosion", bggId: 180974, year: 2015,
+    bggRating: 7.1, complexity: 1.7,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 30, maxTime: 60,
+    elements: [
+      { name: 'unique', sentiment: 'positive', note: "Marble dispenser mechanism" },
+      { name: 'tactile', sentiment: 'positive', note: "Fun to grab marbles" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to learn" },
+      { name: 'engine-building', sentiment: 'positive', note: "Potion combos" },
+      { name: 'satisfying', sentiment: 'positive', note: "Chain explosions feel great" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Marble luck" }
+    ]
+  },
+  {
+    id: 'survive-atlantis', name: "Survive: Escape from Atlantis", bggId: 2653, year: 1982,
+    bggRating: 7.2, complexity: 1.5,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 45, maxTime: 60,
+    elements: [
+      { name: 'take-that', sentiment: 'positive', note: "Send sharks at opponents!" },
+      { name: 'dramatic', sentiment: 'positive', note: "Hilarious disasters" },
+      { name: 'accessible', sentiment: 'positive', note: "Simple rules" },
+      { name: 'exciting', sentiment: 'positive', note: "Tense escapes" },
+      { name: 'humorous', sentiment: 'positive', note: "Watching friends get eaten" }
+    ],
+    antiElements: [
+      { name: 'mean-spirited', note: "Very directly attacking" }
+    ]
+  },
+  {
+    id: 'santorini', name: "Santorini", bggId: 194655, year: 2016,
+    bggRating: 7.6, complexity: 1.8,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 20, maxTime: undefined,
+    elements: [
+      { name: 'abstract', sentiment: 'positive', note: "Pure strategy" },
+      { name: 'beautiful', sentiment: 'positive', note: "3D building is gorgeous" },
+      { name: 'elegant', sentiment: 'positive', note: "Simple rules, deep play" },
+      { name: 'variable-powers', sentiment: 'positive', note: "God powers add variety" },
+      { name: 'quick', sentiment: 'positive', note: "Fast games" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'magic-maze', name: "Magic Maze", bggId: 209778, year: 2017,
+    bggRating: 7.1, complexity: 1.8,
+    minPlayers: 1, maxPlayers: 8,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'real-time', sentiment: 'positive', note: "Beat the timer!" },
+      { name: 'cooperative', sentiment: 'positive', note: "Work together silently" },
+      { name: 'communication', sentiment: 'positive', note: "No talking allowed!" },
+      { name: 'unique', sentiment: 'positive', note: "Each player controls one direction" },
+      { name: 'tense', sentiment: 'positive', note: "Silent frustration builds" }
+    ],
+    antiElements: [
+      { name: 'stressful', note: "Can be frustrating" }
+    ]
+  },
+  {
+    id: 'splendor-duel', name: "Splendor Duel", bggId: 364073, year: 2022,
+    bggRating: 8.1, complexity: 2,
+    minPlayers: 2, maxPlayers: undefined,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'engine-building', sentiment: 'positive', note: "Build gem engine" },
+      { name: 'elegant', sentiment: 'positive', note: "Improved 2-player Splendor" },
+      { name: 'tactical', sentiment: 'positive', note: "Board adds spatial element" },
+      { name: 'strategic', sentiment: 'positive', note: "Multiple win conditions" },
+      { name: 'tense', sentiment: 'positive', note: "Race to victory" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'takenoko', name: "Takenoko", bggId: 70919, year: 2011,
+    bggRating: 7.2, complexity: 1.9,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 45, maxTime: undefined,
+    elements: [
+      { name: 'beautiful', sentiment: 'positive', note: "Adorable panda miniature" },
+      { name: 'accessible', sentiment: 'positive', note: "Great gateway" },
+      { name: 'tile-laying', sentiment: 'positive', note: "Build the garden" },
+      { name: 'set-collection', sentiment: 'positive', note: "Complete objectives" },
+      { name: 'family-friendly', sentiment: 'positive', note: "All ages enjoy it" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Objective card luck" }
+    ]
+  },
+  {
+    id: 'canvas', name: "Canvas", bggId: 290236, year: 2021,
+    bggRating: 7.2, complexity: 1.6,
+    minPlayers: 1, maxPlayers: 5,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'beautiful', sentiment: 'positive', note: "Transparent card layering creates art" },
+      { name: 'unique', sentiment: 'positive', note: "Nothing else like it" },
+      { name: 'creative', sentiment: 'positive', note: "Make actual paintings" },
+      { name: 'accessible', sentiment: 'positive', note: "Simple rules" },
+      { name: 'relaxing', sentiment: 'positive', note: "Calm gameplay" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "Limited strategy" }
+    ]
+  },
+  {
+    id: 'my-city', name: "My City", bggId: 295486, year: 2020,
+    bggRating: 7.5, complexity: 2,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'legacy', sentiment: 'positive', note: "24 games that evolve" },
+      { name: 'tile-laying', sentiment: 'positive', note: "Build your city" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to learn" },
+      { name: 'competitive', sentiment: 'positive', note: "Same cards, different choices" },
+      { name: 'campaign', sentiment: 'positive', note: "Story unfolds" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'drop-it', name: "Drop It", bggId: 244567, year: 2018,
+    bggRating: 6.8, complexity: 1.1,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 20, maxTime: undefined,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Drop shapes into tower" },
+      { name: 'accessible', sentiment: 'positive', note: "Anyone can play" },
+      { name: 'exciting', sentiment: 'positive', note: "Where will it land?" },
+      { name: 'family-friendly', sentiment: 'positive', note: "All ages" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Physics luck" }
+    ]
+  },
+  {
+    id: 'kabuto-sumo', name: "Kabuto Sumo", bggId: 332526, year: 2021,
+    bggRating: 7.2, complexity: 1.1,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Push opponents off the ring" },
+      { name: 'unique', sentiment: 'positive', note: "Disc-pushing sumo beetles" },
+      { name: 'accessible', sentiment: 'positive', note: "Very simple" },
+      { name: 'tactile', sentiment: 'positive', note: "Fun wooden pieces" },
+      { name: 'quick', sentiment: 'positive', note: "Fast games" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'camel-up', name: "Camel Up", bggId: 153938, year: 2014,
+    bggRating: 7.1, complexity: 1.5,
+    minPlayers: 3, maxPlayers: 8,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'betting', sentiment: 'positive', note: "Bet on camel race" },
+      { name: 'exciting', sentiment: 'positive', note: "Dramatic race moments" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to teach" },
+      { name: 'humorous', sentiment: 'positive', note: "Camels stack hilariously" },
+      { name: 'social', sentiment: 'positive', note: "Great group game" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Dice determine race" }
+    ]
+  },
+  {
+    id: 'untold', name: "Untold: Adventures Await", bggId: 241421, year: 2017,
+    bggRating: 6.6, complexity: 1.6,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 45, maxTime: 60,
+    elements: [
+      { name: 'narrative', sentiment: 'positive', note: "Create stories with Rory's Story Cubes" },
+      { name: 'creative', sentiment: 'positive', note: "Collaborative storytelling" },
+      { name: 'cooperative', sentiment: 'positive', note: "Build story together" },
+      { name: 'accessible', sentiment: 'positive', note: "No wrong answers" }
+    ],
+    antiElements: [
+      { name: 'requires-creativity', note: "Need to improvise" }
+    ]
+  },
+  {
+    id: 'letter-tycoon', name: "Letter Tycoon", bggId: 169147, year: 2015,
+    bggRating: 6.9, complexity: 1.6,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'word-game', sentiment: 'positive', note: "Spell words for money" },
+      { name: 'engine-building', sentiment: 'positive', note: "Buy letter patents" },
+      { name: 'accessible', sentiment: 'positive', note: "Familiar word game feel" },
+      { name: 'strategic', sentiment: 'positive', note: "Which letters to patent?" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'horizon-zero-dawn', name: "Horizon Zero Dawn: The Board Game", bggId: 273264, year: 2020,
+    bggRating: 7.2, complexity: 2.8,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 60, maxTime: 90,
+    elements: [
+      { name: 'cooperative', sentiment: 'positive', note: "Hunt machines together" },
+      { name: 'thematic', sentiment: 'positive', note: "Captures video game feel" },
+      { name: 'tactical', sentiment: 'positive', note: "Target machine weak points" },
+      { name: 'deckbuilding', sentiment: 'positive', note: "Build your deck mid-hunt" }
+    ],
+    antiElements: [
+      { name: 'fiddly', note: "Many rules" }
+    ]
+  },
+  {
+    id: 'battles-of-westeros', name: "Battles of Westeros", bggId: 67492, year: 2010,
+    bggRating: 7, complexity: 3.1,
+    minPlayers: 2, maxPlayers: undefined,
+    minTime: 90, maxTime: undefined,
+    elements: [
+      { name: 'wargame', sentiment: 'positive', note: "Tactical medieval battles" },
+      { name: 'thematic', sentiment: 'positive', note: "Game of Thrones battles" },
+      { name: 'tactical', sentiment: 'positive', note: "Command and Colors system" },
+      { name: 'scenarios', sentiment: 'positive', note: "Many battle setups" }
+    ],
+    antiElements: [
+      { name: 'fiddly', note: "Lots of pieces and rules" }
+    ]
+  },
+  {
+    id: 'chromino', name: "Chromino", bggId: 11824, year: 2001,
+    bggRating: 6.5, complexity: 1.3,
+    minPlayers: 1, maxPlayers: 8,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'tile-laying', sentiment: 'positive', note: "Match colors on dominos" },
+      { name: 'accessible', sentiment: 'positive', note: "Very simple" },
+      { name: 'relaxing', sentiment: 'positive', note: "Calm gameplay" },
+      { name: 'colorful', sentiment: 'positive', note: "Pretty patterns emerge" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "Not much strategy" }
+    ]
+  },
+  {
+    id: 'twister', name: "Twister", bggId: 5894, year: 1966,
+    bggRating: 4.7, complexity: 1,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 10, maxTime: undefined,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Physical contortions" },
+      { name: 'social', sentiment: 'positive', note: "Party classic" },
+      { name: 'humorous', sentiment: 'positive', note: "Awkward positions" },
+      { name: 'accessible', sentiment: 'positive', note: "Everyone knows it" }
+    ],
+    antiElements: [
+      { name: 'physical-demand', note: "Need flexibility" }
+    ]
+  },
+  {
+    id: 'turing-tumble', name: "Turing Tumble", bggId: 243668, year: 2017,
+    bggRating: 7.8, complexity: 2.5,
+    minPlayers: 1, maxPlayers: 2,
+    minTime: 15, maxTime: 60,
+    elements: [
+      { name: 'puzzle-solving', sentiment: 'positive', note: "Build marble computers" },
+      { name: 'educational', sentiment: 'positive', note: "Learn computer science" },
+      { name: 'unique', sentiment: 'positive', note: "Mechanical logic gates" },
+      { name: 'solo-friendly', sentiment: 'positive', note: "Great solo puzzles" },
+      { name: 'satisfying', sentiment: 'positive', note: "Seeing logic work" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'fossilis', name: "Fossilis", bggId: 300782, year: 2021,
+    bggRating: 7, complexity: 1.8,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 45, maxTime: 60,
+    elements: [
+      { name: 'tactile', sentiment: 'positive', note: "Physically dig for fossils" },
+      { name: 'set-collection', sentiment: 'positive', note: "Complete dinosaurs" },
+      { name: 'thematic', sentiment: 'positive', note: "Paleontology theme" },
+      { name: 'family-friendly', sentiment: 'positive', note: "Kids love digging" },
+      { name: 'unique', sentiment: 'positive', note: "3D dig site" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'overboss', name: "Overboss", bggId: 304051, year: 2021,
+    bggRating: 7, complexity: 1.6,
+    minPlayers: 1, maxPlayers: 5,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'tile-laying', sentiment: 'positive', note: "Build your dungeon" },
+      { name: 'drafting', sentiment: 'positive', note: "Pick tiles and monsters" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to learn" },
+      { name: 'thematic', sentiment: 'positive', note: "Video game dungeon vibes" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'catamino', name: "Catamino", bggId: 21445, year: 2002,
+    bggRating: 6.9, complexity: 2.1,
+    minPlayers: 1, maxPlayers: 2,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'puzzle-solving', sentiment: 'positive', note: "Fit pentomino pieces" },
+      { name: 'solo-friendly', sentiment: 'positive', note: "Great solo puzzler" },
+      { name: 'accessible', sentiment: 'positive', note: "Simple concept" },
+      { name: 'scalable-difficulty', sentiment: 'positive', note: "Many challenge levels" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'pathfinder-acg', name: "Pathfinder Adventure Card Game", bggId: 133038, year: 2013,
+    bggRating: 7, complexity: 2.7,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 90, maxTime: undefined,
+    elements: [
+      { name: 'cooperative', sentiment: 'positive', note: "Defeat villains together" },
+      { name: 'campaign', sentiment: 'positive', note: "Characters grow over adventures" },
+      { name: 'deckbuilding', sentiment: 'positive', note: "Improve your deck" },
+      { name: 'thematic', sentiment: 'positive', note: "RPG in card form" },
+      { name: 'dice-rolling', sentiment: 'positive', note: "Skill checks" }
+    ],
+    antiElements: [
+      { name: 'fiddly', note: "Lots of setup" },
+      { name: 'too-random', note: "Dice and card luck" }
+    ]
+  },
+  {
+    id: 'wandering-galaxy', name: "Wandering Galaxy", bggId: 405618, year: 2024,
+    bggRating: 7.5, complexity: 2.5,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 60, maxTime: 90,
+    elements: [
+      { name: 'engine-building', sentiment: 'positive', note: "Develop your spaceship" },
+      { name: 'exploration', sentiment: 'positive', note: "Discover the galaxy" },
+      { name: 'thematic', sentiment: 'positive', note: "Space adventure" },
+      { name: 'narrative', sentiment: 'positive', note: "Events tell stories" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'machi-koro', name: "Machi Koro", bggId: 143884, year: 2012,
+    bggRating: 6.6, complexity: 1.5,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'engine-building', sentiment: 'positive', note: "Build city for income" },
+      { name: 'dice-rolling', sentiment: 'positive', note: "Roll to activate buildings" },
+      { name: 'accessible', sentiment: 'positive', note: "Very simple" },
+      { name: 'quick', sentiment: 'positive', note: "Fast games" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Dice luck dominates" }
+    ]
+  },
+  {
+    id: 'paper-dungeons', name: "Paper Dungeons", bggId: 291786, year: 2021,
+    bggRating: 6.9, complexity: 2.1,
+    minPlayers: 1, maxPlayers: 8,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'roll-and-write', sentiment: 'positive', note: "Mark your dungeon sheet" },
+      { name: 'dungeon-crawl', sentiment: 'positive', note: "Explore and fight" },
+      { name: 'simultaneous', sentiment: 'positive', note: "All play at once" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to teach" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Dice luck" }
+    ]
+  },
+  {
+    id: 'dont-get-got', name: "Don't Get Got", bggId: 262289, year: 2018,
+    bggRating: 6.7, complexity: 1,
+    minPlayers: 2, maxPlayers: 8,
+    minTime: 60, maxTime: 600,
+    elements: [
+      { name: 'social', sentiment: 'positive', note: "Secret missions among friends" },
+      { name: 'humorous', sentiment: 'positive', note: "Tricking friends is hilarious" },
+      { name: 'unique', sentiment: 'positive', note: "Plays during other activities" },
+      { name: 'party', sentiment: 'positive', note: "Great at gatherings" }
+    ],
+    antiElements: [
+      { name: 'requires-group', note: "Needs right social setting" }
+    ]
+  },
+  {
+    id: 'flick-em-up-dead-of-winter', name: "Flick 'em Up: Dead of Winter", bggId: 219288, year: 2017,
+    bggRating: 6.8, complexity: 2,
+    minPlayers: 2, maxPlayers: 10,
+    minTime: 45, maxTime: undefined,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Flick discs to fight zombies" },
+      { name: 'cooperative', sentiment: 'positive', note: "Survive together" },
+      { name: 'thematic', sentiment: 'positive', note: "Zombie survival" },
+      { name: 'unique', sentiment: 'positive', note: "Flicking meets co-op" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'spinderella', name: "Spinderella", bggId: 168818, year: 2015,
+    bggRating: 6.7, complexity: 1.2,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 20, maxTime: undefined,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Spider descends from above" },
+      { name: 'family-friendly', sentiment: 'positive', note: "Kinderspiel winner" },
+      { name: 'unique', sentiment: 'positive', note: "3D spider mechanism" },
+      { name: 'accessible', sentiment: 'positive', note: "Kids love it" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'sonic-racing', name: "Sonic the Hedgehog: Battle Racers", bggId: 237528, year: 2019,
+    bggRating: 6.3, complexity: 2,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 45, maxTime: undefined,
+    elements: [
+      { name: 'racing', sentiment: 'positive', note: "Race through loops" },
+      { name: 'thematic', sentiment: 'positive', note: "Sonic video game feel" },
+      { name: 'deckbuilding', sentiment: 'positive', note: "Build move deck" },
+      { name: 'nostalgic', sentiment: 'positive', note: "For Sonic fans" }
+    ],
+    antiElements: [
+      { name: 'fiddly', note: "Track setup takes time" }
+    ]
+  },
+  {
+    id: 'crash-octopus', name: "Crash Octopus", bggId: 330097, year: 2021,
+    bggRating: 6.9, complexity: 1.1,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Flick tentacles to grab treasure" },
+      { name: 'quick', sentiment: 'positive', note: "Very fast" },
+      { name: 'unique', sentiment: 'positive', note: "Giant octopus mechanism" },
+      { name: 'family-friendly', sentiment: 'positive', note: "All ages" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'iguazu', name: "Iguazu", bggId: 260514, year: 2018,
+    bggRating: 6.7, complexity: 1.9,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 50, maxTime: undefined,
+    elements: [
+      { name: 'area-control', sentiment: 'positive', note: "Place gems on waterfall" },
+      { name: 'hand-management', sentiment: 'positive', note: "Card play timing" },
+      { name: 'beautiful', sentiment: 'positive', note: "Waterfall theme" },
+      { name: 'strategic', sentiment: 'positive', note: "When to place matters" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'fits', name: "FITS", bggId: 40393, year: 2009,
+    bggRating: 6.5, complexity: 1.3,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'puzzle-solving', sentiment: 'positive', note: "Tetris-like fitting" },
+      { name: 'simultaneous', sentiment: 'positive', note: "All play at once" },
+      { name: 'accessible', sentiment: 'positive', note: "Everyone knows Tetris" },
+      { name: 'quick', sentiment: 'positive', note: "Fast rounds" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'heroscape', name: "HeroScape", bggId: 4371, year: 2004,
+    bggRating: 7.4, complexity: 2.4,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 60, maxTime: 240,
+    elements: [
+      { name: 'tactical', sentiment: 'positive', note: "Grid-based miniature combat" },
+      { name: 'beautiful', sentiment: 'positive', note: "3D terrain you build yourself" },
+      { name: 'thematic', sentiment: 'positive', note: "Heroes from all eras battle" },
+      { name: 'customizable', sentiment: 'positive', note: "Build any battlefield" },
+      { name: 'nostalgic', sentiment: 'positive', note: "Beloved cult classic" },
+      { name: 'dice-rolling', sentiment: 'positive', note: "Combat resolution" }
+    ],
+    antiElements: [
+      { name: 'out-of-print', note: "Hard to find (until recent reprint)" },
+      { name: 'setup-time', note: "Building terrain takes time" }
+    ]
+  },
+  {
+    id: 'heroquest', name: "HeroQuest", bggId: 699, year: 1989,
+    bggRating: 7, complexity: 2,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 90, maxTime: undefined,
+    elements: [
+      { name: 'dungeon-crawl', sentiment: 'positive', note: "Classic dungeon exploration" },
+      { name: 'nostalgic', sentiment: 'positive', note: "Gateway to hobby for many" },
+      { name: 'thematic', sentiment: 'positive', note: "Fantasy adventure" },
+      { name: 'cooperative', sentiment: 'positive', note: "Heroes vs Zargon" },
+      { name: 'miniatures', sentiment: 'positive', note: "Great figures" }
+    ],
+    antiElements: [
+      { name: 'dated', note: "Rules show their age" },
+      { name: 'too-random', note: "Dice luck heavy" }
+    ]
+  },
+  {
+    id: 'dragon-strike', name: "Dragon Strike", bggId: 1149, year: 1993,
+    bggRating: 5.8, complexity: 1.8,
+    minPlayers: 2, maxPlayers: 5,
+    minTime: 60, maxTime: undefined,
+    elements: [
+      { name: 'dungeon-crawl', sentiment: 'positive', note: "Simplified dungeon game" },
+      { name: 'nostalgic', sentiment: 'positive', note: "Famous VHS intro!" },
+      { name: 'accessible', sentiment: 'positive', note: "Entry-level dungeon crawl" },
+      { name: 'thematic', sentiment: 'positive', note: "Fantasy adventure" }
+    ],
+    antiElements: [
+      { name: 'dated', note: "Very simple by modern standards" },
+      { name: 'too-random', note: "Dice heavy" }
+    ]
+  },
+  {
+    id: 'pokemon-master-trainer', name: "Pokemon Master Trainer", bggId: 5538, year: 1999,
+    bggRating: 5.3, complexity: 1.5,
+    minPlayers: 2, maxPlayers: 6,
+    minTime: 60, maxTime: 90,
+    elements: [
+      { name: 'nostalgic', sentiment: 'positive', note: "Peak 90s Pokemon" },
+      { name: 'thematic', sentiment: 'positive', note: "Catch Pokemon, battle rivals" },
+      { name: 'dice-rolling', sentiment: 'positive', note: "Movement and battles" },
+      { name: 'set-collection', sentiment: 'positive', note: "Gotta catch em all" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Very luck-based" },
+      { name: 'too-long', note: "Can drag" },
+      { name: 'dated', note: "Better Pokemon games exist now" }
+    ]
+  },
+  {
+    id: 'not-alone', name: "Not Alone", bggId: 194879, year: 2016,
+    bggRating: 7, complexity: 1.8,
+    minPlayers: 2, maxPlayers: 7,
+    minTime: 30, maxTime: 45,
+    elements: [
+      { name: 'hidden-movement', sentiment: 'positive', note: "Creature hunts survivors" },
+      { name: 'asymmetric', sentiment: 'positive', note: "One vs many" },
+      { name: 'bluffing', sentiment: 'positive', note: "Predict where prey will go" },
+      { name: 'thematic', sentiment: 'positive', note: "Alien planet survival" },
+      { name: 'tense', sentiment: 'positive', note: "Cat and mouse tension" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: '13-dead-end-drive', name: "13 Dead End Drive", bggId: 1899, year: 1993,
+    bggRating: 5.6, complexity: 1.4,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 45, maxTime: undefined,
+    elements: [
+      { name: 'take-that', sentiment: 'positive', note: "Trigger traps on opponents" },
+      { name: 'humorous', sentiment: 'positive', note: "Cartoon murder mystery" },
+      { name: 'nostalgic', sentiment: 'positive', note: "90s classic" },
+      { name: 'bluffing', sentiment: 'positive', note: "Hidden identity" },
+      { name: 'dexterity', sentiment: 'positive', note: "Physical trap mechanisms" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Card luck" },
+      { name: 'dated', note: "Simple by modern standards" }
+    ]
+  },
+  {
+    id: 'game-of-life', name: "The Game of Life", bggId: 2921, year: 1960,
+    bggRating: 4.7, complexity: 1.2,
+    minPlayers: 2, maxPlayers: 6,
+    minTime: 60, maxTime: undefined,
+    elements: [
+      { name: 'nostalgic', sentiment: 'positive', note: "Childhood classic" },
+      { name: 'accessible', sentiment: 'positive', note: "Everyone knows it" },
+      { name: 'thematic', sentiment: 'positive', note: "Life simulation" }
+    ],
+    antiElements: [
+      { name: 'no-strategy', note: "Almost pure luck" },
+      { name: 'dated', note: "Very simple" }
+    ]
+  },
+  {
+    id: 'mouse-trap', name: "Mouse Trap", bggId: 2687, year: 1963,
+    bggRating: 4.3, complexity: 1.1,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'nostalgic', sentiment: 'positive', note: "Iconic Rube Goldberg trap" },
+      { name: 'tactile', sentiment: 'positive', note: "Building the contraption" },
+      { name: 'accessible', sentiment: 'positive', note: "Kids love it" }
+    ],
+    antiElements: [
+      { name: 'no-strategy', note: "Pure luck" },
+      { name: 'fiddly', note: "Trap often doesn't work" }
+    ]
+  },
+  {
+    id: 'operation', name: "Operation", bggId: 3737, year: 1965,
+    bggRating: 4.6, complexity: 1,
+    minPlayers: 1, maxPlayers: 6,
+    minTime: 10, maxTime: undefined,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Steady hand required" },
+      { name: 'nostalgic', sentiment: 'positive', note: "Classic buzzer game" },
+      { name: 'accessible', sentiment: 'positive', note: "Everyone knows it" },
+      { name: 'tense', sentiment: 'positive', note: "Will you buzz?" }
+    ],
+    antiElements: [
+      { name: 'limited', note: "Not much game there" }
+    ]
+  },
+  {
+    id: 'monopoly', name: "Monopoly", bggId: 1406, year: 1933,
+    bggRating: 4.4, complexity: 1.7,
+    minPlayers: 2, maxPlayers: 8,
+    minTime: 60, maxTime: 180,
+    elements: [
+      { name: 'nostalgic', sentiment: 'positive', note: "The classic" },
+      { name: 'trading', sentiment: 'positive', note: "Deal-making is the real game" },
+      { name: 'accessible', sentiment: 'positive', note: "Everyone knows it" }
+    ],
+    antiElements: [
+      { name: 'too-long', note: "Games drag on forever" },
+      { name: 'too-random', note: "Dice and card luck" },
+      { name: 'player-elimination', note: "Bankrupt players watch" },
+      { name: 'kingmaking', note: "Trades decide winner" }
+    ]
+  },
+  {
+    id: 'scrabble', name: "Scrabble", bggId: 320, year: 1948,
+    bggRating: 6.3, complexity: 1.9,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 90, maxTime: undefined,
+    elements: [
+      { name: 'word-game', sentiment: 'positive', note: "Classic word building" },
+      { name: 'strategic', sentiment: 'positive', note: "Board position matters" },
+      { name: 'nostalgic', sentiment: 'positive', note: "Timeless classic" },
+      { name: 'educational', sentiment: 'positive', note: "Vocabulary building" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Tile draw luck" },
+      { name: 'vocabulary-dependent', note: "Favors big vocabularies" }
+    ]
+  },
+  {
+    id: 'mastermind', name: "Mastermind", bggId: 2392, year: 1970,
+    bggRating: 5.8, complexity: 1.8,
+    minPlayers: 2, maxPlayers: undefined,
+    minTime: 20, maxTime: undefined,
+    elements: [
+      { name: 'deduction', sentiment: 'positive', note: "Logic puzzle" },
+      { name: 'elegant', sentiment: 'positive', note: "Simple, pure" },
+      { name: 'nostalgic', sentiment: 'positive', note: "Classic" },
+      { name: 'quick', sentiment: 'positive', note: "Fast games" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'slide-quest', name: "Slide Quest", bggId: 279459, year: 2019,
+    bggRating: 6.9, complexity: 1.2,
+    minPlayers: 1, maxPlayers: 4,
+    minTime: 15, maxTime: 45,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Tilt the board together" },
+      { name: 'cooperative', sentiment: 'positive', note: "Work together to guide knight" },
+      { name: 'unique', sentiment: 'positive', note: "Labyrinth meets co-op" },
+      { name: 'accessible', sentiment: 'positive', note: "Anyone can play" },
+      { name: 'family-friendly', sentiment: 'positive', note: "Great with kids" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'creationary', name: "Creationary", bggId: 66276, year: 2009,
+    bggRating: 6, complexity: 1.1,
+    minPlayers: 3, maxPlayers: 8,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'creative', sentiment: 'positive', note: "Build with LEGO for others to guess" },
+      { name: 'social', sentiment: 'positive', note: "Pictionary with bricks" },
+      { name: 'tactile', sentiment: 'positive', note: "LEGO building" },
+      { name: 'family-friendly', sentiment: 'positive', note: "All ages" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'blokus-trigon', name: "Blokus Trigon", bggId: 21550, year: 2006,
+    bggRating: 7, complexity: 1.9,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'abstract', sentiment: 'positive', note: "Triangle variant of Blokus" },
+      { name: 'strategic', sentiment: 'positive', note: "Blocking and expanding" },
+      { name: 'elegant', sentiment: 'positive', note: "Simple rules" },
+      { name: 'accessible', sentiment: 'positive', note: "Easy to learn" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'uno-stacko', name: "UNO Stacko", bggId: 8137, year: 1994,
+    bggRating: 5.2, complexity: 1,
+    minPlayers: 2, maxPlayers: 10,
+    minTime: 30, maxTime: undefined,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Jenga meets UNO" },
+      { name: 'accessible', sentiment: 'positive', note: "Anyone can play" },
+      { name: 'tense', sentiment: 'positive', note: "Will it fall?" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Luck of the draw/pull" }
+    ]
+  },
+  {
+    id: 'woolly-bully', name: "Woolly Bully", bggId: 192047, year: 2015,
+    bggRating: 5.9, complexity: 1,
+    minPlayers: 2, maxPlayers: 6,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Stack sheep on wolf" },
+      { name: 'family-friendly', sentiment: 'positive', note: "Kids love it" },
+      { name: 'quick', sentiment: 'positive', note: "Fast games" },
+      { name: 'tactile', sentiment: 'positive', note: "Cute wooden pieces" }
+    ],
+    antiElements: [
+
+    ]
+  },
+  {
+    id: 'mad-magazine-game', name: "The MAD Magazine Game", bggId: 3498, year: 1979,
+    bggRating: 5.4, complexity: 1.2,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 60, maxTime: undefined,
+    elements: [
+      { name: 'humorous', sentiment: 'positive', note: "Goal is to LOSE all money" },
+      { name: 'nostalgic', sentiment: 'positive', note: "MAD Magazine humor" },
+      { name: 'unique', sentiment: 'positive', note: "Reverse Monopoly concept" },
+      { name: 'chaotic', sentiment: 'positive', note: "Wacky rules" }
+    ],
+    antiElements: [
+      { name: 'too-random', note: "Pure chaos" }
+    ]
+  },
+  {
+    id: 'shaky-shark', name: "Shaky Shark", bggId: 232952, year: 2017,
+    bggRating: 5.3, complexity: 1,
+    minPlayers: 2, maxPlayers: 4,
+    minTime: 15, maxTime: undefined,
+    elements: [
+      { name: 'dexterity', sentiment: 'positive', note: "Remove fish without waking shark" },
+      { name: 'family-friendly', sentiment: 'positive', note: "Kids game" },
+      { name: 'tense', sentiment: 'positive', note: "Will it bite?" }
+    ],
+    antiElements: [
+      { name: 'too-light', note: "Very simple" }
+    ]
+  }

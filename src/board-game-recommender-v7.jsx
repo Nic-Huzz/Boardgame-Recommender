@@ -698,7 +698,7 @@ function getReadiness(prefs) {
   const dislikes = Object.values(prefs).filter(p => p === 'dislike').length;
   const total = likes + dislikes;
   let conf = { level: 'low', label: 'Early suggestions', emoji: '🌱', color: 'bg-yellow-500/30 text-yellow-300' };
-  if (total >= 10 && likes >= 5) conf = { level: 'high', label: 'Highly personalized', emoji: '🎯', color: 'bg-emerald-500/30 text-emerald-300' };
+  if (total >= 10 && likes >= 5) conf = { level: 'high', label: 'Highly personalized', emoji: '🎯', color: 'bg-brand-gold/30 text-brand-gold' };
   else if (total >= 5 && likes >= 3) conf = { level: 'good', label: 'Good recommendations', emoji: '⭐', color: 'bg-blue-500/30 text-blue-300' };
   return { canRecommend: likes >= 2, likes, dislikes, total, ...conf };
 }
@@ -756,7 +756,7 @@ function clearProfile() {
 
 function MatchBadge({ score, size = 'md' }) {
   let bg, text;
-  if (score >= 50) { bg = 'bg-emerald-500/30'; text = 'text-emerald-300'; }
+  if (score >= 50) { bg = 'bg-brand-gold/30'; text = 'text-brand-gold'; }
   else if (score >= 25) { bg = 'bg-blue-500/30'; text = 'text-blue-300'; }
   else if (score >= 10) { bg = 'bg-yellow-500/30'; text = 'text-yellow-300'; }
   else { bg = 'bg-white/10'; text = 'text-white/50'; }
@@ -814,10 +814,10 @@ function TasteProfile({ analysis, readiness }) {
       </div>
       <div className="grid md:grid-cols-2 gap-6">
         <div>
-          <h3 className="text-sm text-emerald-300 mb-2">Things You Love ({readiness.likes})</h3>
+          <h3 className="text-sm text-brand-gold mb-2">Things You Love ({readiness.likes})</h3>
           <div className="flex flex-wrap gap-2">
             {analysis.likedTraits.slice(0, 8).map(({ trait, count, info }) => (
-              <span key={trait} className="px-3 py-1.5 bg-emerald-500/30 rounded-lg text-sm text-white">
+              <span key={trait} className="px-3 py-1.5 bg-brand-gold/30 rounded-lg text-sm text-white">
                 {info?.emoji} {info?.label || trait} <span className="text-white/50">×{count}</span>
               </span>
             ))}
@@ -1096,7 +1096,7 @@ export default function BoardGameRecommenderV7() {
               const tier = getComplexityTier(game.complexity);
               return (
                 <button key={game.id} onClick={() => toggleGame(game.id)}
-                  className={`p-3 rounded-xl text-left transition-all border ${sel ? 'bg-emerald-500/20 border-emerald-500/50 ring-2 ring-emerald-500/50' : 'bg-white/5 border-white/10 hover:border-white/30'}`}>
+                  className={`p-3 rounded-xl text-left transition-all border ${sel ? 'bg-brand-gold/20 border-brand-gold/50 ring-2 ring-brand-gold/50' : 'bg-white/5 border-white/10 hover:border-white/30'}`}>
                   <div className="flex items-start justify-between mb-1">
                     <h3 className="font-medium text-white text-sm leading-tight">{game.name}</h3>
                     {sel && <span className="text-brand-gold ml-1">✓</span>}
@@ -1276,17 +1276,17 @@ export default function BoardGameRecommenderV7() {
           
           {/* Search & Filters */}
           <div className="sticky top-2 z-20 mb-4">
-            <div className="bg-slate-800/95 backdrop-blur-lg rounded-2xl p-4 border border-white/10">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-5 border border-white/20 shadow-lg">
               <div className="flex flex-col md:flex-row gap-3">
                 <input type="text" placeholder="Search games..." value={browseSearch} onChange={e => setBrowseSearch(e.target.value)}
-                  className="flex-1 px-4 py-2.5 bg-white/10 rounded-lg text-white placeholder-white/50 text-lg" />
-                <select value={browseSort} onChange={e => setBrowseSort(e.target.value)} className="px-3 py-2 bg-white/10 rounded-lg text-white">
+                  className="flex-1 px-4 py-3 bg-white/15 rounded-xl text-white placeholder-white/60 border border-white/10 focus:border-brand-gold/50 focus:outline-none transition-all text-lg" />
+                <select value={browseSort} onChange={e => setBrowseSort(e.target.value)} className="px-4 py-3 bg-white/15 rounded-xl text-white border border-white/10 focus:border-brand-gold/50 focus:outline-none transition-all">
                   <option value="match">Sort: Best Match</option>
                   <option value="rating">Sort: BGG Rating</option>
                   <option value="name">Sort: Name</option>
                   <option value="complexity">Sort: Complexity</option>
                 </select>
-                <select value={browseComplexity} onChange={e => setBrowseComplexity(e.target.value)} className="px-3 py-2 bg-white/10 rounded-lg text-white">
+                <select value={browseComplexity} onChange={e => setBrowseComplexity(e.target.value)} className="px-4 py-3 bg-white/15 rounded-xl text-white border border-white/10 focus:border-brand-gold/50 focus:outline-none transition-all">
                   <option value="all">All Weights</option>
                   <option value="light">Light</option>
                   <option value="gateway">Gateway</option>
@@ -1294,7 +1294,7 @@ export default function BoardGameRecommenderV7() {
                   <option value="heavy">Heavy</option>
                 </select>
               </div>
-              <div className="mt-2 text-xs text-white/40">{browseResults.length} games</div>
+              <div className="mt-3 text-sm text-white/50 font-medium">{browseResults.length} games</div>
             </div>
           </div>
           
@@ -1303,7 +1303,7 @@ export default function BoardGameRecommenderV7() {
             {browseResults.map(game => {
               const tier = COMPLEXITY_TIERS[game.complexityTier];
               return (
-                <div key={game.id} className={`rounded-xl p-4 border transition-all ${game.isRated ? 'bg-white/5 border-white/5 opacity-60' : game.matchScore >= 50 ? 'bg-emerald-500/10 border-emerald-500/30' : 'bg-white/5 border-white/10'}`}>
+                <div key={game.id} className={`rounded-xl p-4 border transition-all ${game.isRated ? 'bg-white/5 border-white/5 opacity-60' : game.matchScore >= 50 ? 'bg-brand-gold/10 border-brand-gold/30' : 'bg-white/5 border-white/10'}`}>
                   <div className="flex items-center gap-4">
                     {/* Match score */}
                     <div className="w-16 text-center shrink-0">

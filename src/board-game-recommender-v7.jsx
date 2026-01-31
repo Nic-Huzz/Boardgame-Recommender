@@ -947,15 +947,15 @@ export default function BoardGameRecommenderV7() {
         const isDisabled = (s === 'results' || s === 'browse') && !readiness.canRecommend;
         return (
           <button key={s} onClick={() => !isDisabled && setStage(s)} disabled={isDisabled}
-            className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${isActive ? 'bg-white/20 text-white' : isDisabled ? 'bg-white/5 text-white/20 cursor-not-allowed' : 'bg-white/5 text-white/60 hover:bg-white/10 hover:text-white'}`}>
+            className={`px-3 md:px-4 py-2.5 rounded-xl text-xs md:text-sm font-medium transition-all ${isActive ? 'bg-white/20 text-white' : isDisabled ? 'bg-white/5 text-white/20 cursor-not-allowed' : 'bg-white/5 text-white/60 hover:bg-white/10 hover:text-white'}`}>
             {labels[s]}
           </button>
         );
       })}
       <div className="ml-auto flex items-center gap-2">
         {readiness.canRecommend && (
-          <button onClick={handleSave} className="px-4 py-2 rounded-xl text-sm font-medium bg-brand-purple/30 text-purple-200 hover:bg-brand-purple/50 transition-all">
-            {saveStatus === 'saving' ? '💾 Saving...' : saveStatus === 'saved' ? '✅ Saved!' : saveStatus === 'error' ? '❌ Error' : '💾 Save Profile'}
+          <button onClick={handleSave} className="px-3 md:px-4 py-2.5 rounded-xl text-xs md:text-sm font-medium bg-brand-purple/30 text-purple-200 hover:bg-brand-purple/50 transition-all whitespace-nowrap">
+            {saveStatus === 'saving' ? '💾 Saving...' : saveStatus === 'saved' ? '✅ Saved!' : saveStatus === 'error' ? '❌ Error' : '💾 Save'}
           </button>
         )}
       </div>
@@ -978,10 +978,10 @@ export default function BoardGameRecommenderV7() {
   if (stage === 'home') {
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-950 via-brand-purple to-purple-950 p-4">
-        <div className="max-w-3xl mx-auto">
-          <div className="text-center py-12">
-            <h1 className="text-4xl font-bold text-white mb-3">🎲 Board Game Recommender</h1>
-            <p className="text-xl text-purple-200 mb-8">Find your next favorite game</p>
+        <div className="max-w-3xl mx-auto px-4">
+          <div className="text-center py-8 md:py-12">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3">🎲 Board Game Recommender</h1>
+            <p className="text-lg md:text-xl text-purple-200 mb-6 md:mb-8">Find your next favorite game</p>
             
             {hasProfile && readiness.canRecommend ? (
               <div className="space-y-6">
@@ -997,57 +997,57 @@ export default function BoardGameRecommenderV7() {
                 
                 <TasteProfile analysis={analysis} readiness={readiness} />
                 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                   <button onClick={() => setStage('browse')}
-                    className="p-6 rounded-2xl bg-gradient-to-br from-brand-gold/20 to-brand-gold-warm/20 border border-brand-gold/30 hover:border-brand-gold/50 transition-all text-left">
+                    className="p-5 md:p-6 rounded-2xl bg-gradient-to-br from-brand-gold/20 to-brand-gold-warm/20 border border-brand-gold/30 hover:border-brand-gold/50 transition-all text-left">
                     <div className="text-2xl mb-2">🔍</div>
-                    <h3 className="text-white font-bold mb-1">Browse & Search</h3>
-                    <p className="text-white/60 text-sm">See match % for all games</p>
+                    <h3 className="text-white font-bold mb-1 text-base md:text-lg">Browse & Search</h3>
+                    <p className="text-white/60 text-xs md:text-sm">See match % for all games</p>
                   </button>
                   <button onClick={() => setStage('results')}
-                    className="p-6 rounded-2xl bg-gradient-to-br from-brand-purple/20 to-brand-purple-light/20 border border-brand-purple/30 hover:border-brand-purple/50 transition-all text-left">
+                    className="p-5 md:p-6 rounded-2xl bg-gradient-to-br from-brand-purple/20 to-brand-purple-light/20 border border-brand-purple/30 hover:border-brand-purple/50 transition-all text-left">
                     <div className="text-2xl mb-2">🎯</div>
-                    <h3 className="text-white font-bold mb-1">Top Picks</h3>
-                    <p className="text-white/60 text-sm">See your best matches</p>
+                    <h3 className="text-white font-bold mb-1 text-base md:text-lg">Top Picks</h3>
+                    <p className="text-white/60 text-xs md:text-sm">See your best matches</p>
                   </button>
                   <button onClick={() => setStage('select-games')}
-                    className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-white/30 transition-all text-left">
+                    className="p-5 md:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-white/30 transition-all text-left">
                     <div className="text-2xl mb-2">➕</div>
-                    <h3 className="text-white font-bold mb-1">Rate More Games</h3>
-                    <p className="text-white/60 text-sm">Improve recommendations</p>
+                    <h3 className="text-white font-bold mb-1 text-base md:text-lg">Rate More Games</h3>
+                    <p className="text-white/60 text-xs md:text-sm">Improve recommendations</p>
                   </button>
                   <button onClick={handleClear}
-                    className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-red-500/30 transition-all text-left">
+                    className="p-5 md:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-red-500/30 transition-all text-left">
                     <div className="text-2xl mb-2">🗑️</div>
-                    <h3 className="text-white font-bold mb-1">Start Fresh</h3>
-                    <p className="text-white/60 text-sm">Clear saved profile</p>
+                    <h3 className="text-white font-bold mb-1 text-base md:text-lg">Start Fresh</h3>
+                    <p className="text-white/60 text-xs md:text-sm">Clear saved profile</p>
                   </button>
                 </div>
               </div>
             ) : (
               <div className="space-y-6">
-                <div className="bg-white/5 rounded-2xl p-8 border border-white/10">
-                  <p className="text-white/70 text-lg mb-6">
+                <div className="bg-white/5 rounded-2xl p-6 md:p-8 border border-white/10">
+                  <p className="text-white/70 text-base md:text-lg mb-6">
                     Tell us which games you've played and what you liked about them.
                     We'll find your perfect next game! 🎯
                   </p>
                   <button onClick={() => setStage('select-games')}
-                    className="px-8 py-4 rounded-2xl font-bold text-lg bg-gradient-to-r from-brand-gold to-brand-gold-warm text-gray-900 hover:scale-105 transition-transform shadow-lg hover:shadow-xl">
+                    className="w-full sm:w-auto px-8 py-4 rounded-2xl font-bold text-base md:text-lg bg-gradient-to-r from-brand-gold to-brand-gold-warm text-gray-900 hover:scale-105 transition-transform shadow-lg hover:shadow-xl">
                     Get Started →
                   </button>
                 </div>
-                <div className="grid grid-cols-3 gap-4 text-center">
-                  <div className="bg-white/5 rounded-xl p-4">
-                    <div className="text-2xl mb-1">🎮</div>
-                    <p className="text-white/70 text-sm">Select games you know</p>
+                <div className="grid grid-cols-3 gap-3 md:gap-4 text-center">
+                  <div className="bg-white/5 rounded-xl p-3 md:p-4">
+                    <div className="text-xl md:text-2xl mb-1">🎮</div>
+                    <p className="text-white/70 text-xs md:text-sm">Select games you know</p>
                   </div>
-                  <div className="bg-white/5 rounded-xl p-4">
-                    <div className="text-2xl mb-1">👍👎</div>
-                    <p className="text-white/70 text-sm">Rate what you liked</p>
+                  <div className="bg-white/5 rounded-xl p-3 md:p-4">
+                    <div className="text-xl md:text-2xl mb-1">👍👎</div>
+                    <p className="text-white/70 text-xs md:text-sm">Rate what you liked</p>
                   </div>
-                  <div className="bg-white/5 rounded-xl p-4">
-                    <div className="text-2xl mb-1">🎯</div>
-                    <p className="text-white/70 text-sm">Get personalized picks</p>
+                  <div className="bg-white/5 rounded-xl p-3 md:p-4">
+                    <div className="text-xl md:text-2xl mb-1">🎯</div>
+                    <p className="text-white/70 text-xs md:text-sm">Get personalized picks</p>
                   </div>
                 </div>
               </div>
@@ -1062,10 +1062,10 @@ export default function BoardGameRecommenderV7() {
   if (stage === 'select-games') {
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-950 via-brand-purple to-purple-950 p-4">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto px-4">
           <NavBar current="select-games" />
           <div className="text-center mb-4">
-            <h1 className="text-2xl font-bold text-white">Select Games You've Played</h1>
+            <h1 className="text-xl md:text-2xl font-bold text-white">Select Games You've Played</h1>
           </div>
           <div className="sticky top-2 z-20 mb-4">
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-5 border border-white/20 shadow-lg">
@@ -1118,7 +1118,7 @@ export default function BoardGameRecommenderV7() {
   if (stage === 'rate-elements' && currentGame) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-950 via-brand-purple to-purple-950 p-4">
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-2xl mx-auto px-4">
           <NavBar current="rate-elements" />
           <div className="mb-6">
             <div className="flex justify-between items-center mb-2">
@@ -1204,17 +1204,17 @@ export default function BoardGameRecommenderV7() {
     
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-950 via-brand-purple to-purple-950 p-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto px-4">
           <NavBar current="results" />
           <div className="text-center mb-6">
-            <h1 className="text-3xl font-bold text-white mb-2">🎯 Your Recommendations</h1>
+            <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">🎯 Your Recommendations</h1>
           </div>
           
           <div className="mb-8"><TasteProfile analysis={analysis} readiness={readiness} /></div>
           
           {recs?.perfect.length > 0 && (
             <div className="mb-8">
-              <h2 className="text-xl font-bold text-white mb-4">🎯 Perfect For You</h2>
+              <h2 className="text-lg md:text-xl font-bold text-white mb-4">🎯 Perfect For You</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 {recs.perfect.slice(0, 6).map(g => <GameCard key={g.id} game={g} scored={g} />)}
               </div>
@@ -1222,7 +1222,7 @@ export default function BoardGameRecommenderV7() {
           )}
           {recs?.great.length > 0 && (
             <div className="mb-8">
-              <h2 className="text-xl font-bold text-white mb-4">⭐ You'd Probably Love</h2>
+              <h2 className="text-lg md:text-xl font-bold text-white mb-4">⭐ You'd Probably Love</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 {recs.great.slice(0, 6).map(g => <GameCard key={g.id} game={g} scored={g} />)}
               </div>
@@ -1230,8 +1230,8 @@ export default function BoardGameRecommenderV7() {
           )}
           {recs?.worth.length > 0 && (
             <div className="mb-8">
-              <h2 className="text-xl font-bold text-white mb-4">🌱 Worth Exploring</h2>
-              <div className="grid md:grid-cols-3 gap-3">
+              <h2 className="text-lg md:text-xl font-bold text-white mb-4">🌱 Worth Exploring</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
                 {recs.worth.slice(0, 9).map(g => (
                   <div key={g.id} className="bg-white/5 rounded-xl p-4 border border-white/5">
                     <div className="flex justify-between items-start mb-2">
@@ -1267,11 +1267,11 @@ export default function BoardGameRecommenderV7() {
   if (stage === 'browse') {
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-950 via-brand-purple to-purple-950 p-4">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto px-4">
           <NavBar current="browse" />
           <div className="text-center mb-4">
-            <h1 className="text-2xl font-bold text-white">🔍 Browse All Games</h1>
-            <p className="text-purple-300 text-sm">See your match % for every game</p>
+            <h1 className="text-xl md:text-2xl font-bold text-white">🔍 Browse All Games</h1>
+            <p className="text-purple-300 text-xs md:text-sm">See your match % for every game</p>
           </div>
           
           {/* Search & Filters */}

@@ -962,6 +962,23 @@ export default function BoardGameRecommenderV7() {
     </div>
   );
 
+  // Footer component used on every screen
+  const Footer = () => (
+    <div className="mt-8 pt-6 border-t border-white/10 text-center">
+      <p className="text-white/60 text-sm md:text-base mb-2">
+        Want to add a game to the list?{' '}
+        <a
+          href="https://wa.me/61423220241?text=Hi!%20I'd%20like%20to%20suggest%20a%20board%20game%20for%20the%20recommender"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-brand-gold hover:text-brand-gold-warm transition-colors underline font-medium">
+          Click here to send me a message
+        </a>
+        {' '}and I'll add it
+      </p>
+    </div>
+  );
+
   // ========== LOADING ==========
   if (stage === 'loading') {
     return (
@@ -1053,6 +1070,7 @@ export default function BoardGameRecommenderV7() {
               </div>
             )}
           </div>
+          <Footer />
         </div>
       </div>
     );
@@ -1109,6 +1127,7 @@ export default function BoardGameRecommenderV7() {
               );
             })}
           </div>
+          <Footer />
         </div>
       </div>
     );
@@ -1186,6 +1205,7 @@ export default function BoardGameRecommenderV7() {
               Skip to results ({readiness.emoji} {readiness.label})
             </button>
           )}
+          <Footer />
         </div>
       </div>
     );
@@ -1258,6 +1278,7 @@ export default function BoardGameRecommenderV7() {
               </button>
             </div>
           )}
+          <Footer />
         </div>
       </div>
     );
@@ -1343,6 +1364,7 @@ export default function BoardGameRecommenderV7() {
           {browseResults.length === 0 && (
             <div className="text-center py-12 text-white/50">No games match your search</div>
           )}
+          <Footer />
         </div>
       </div>
     );

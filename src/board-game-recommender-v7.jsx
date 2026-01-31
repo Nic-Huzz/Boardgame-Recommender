@@ -1032,7 +1032,7 @@ export default function BoardGameRecommenderV7() {
                     We'll find your perfect next game! 🎯
                   </p>
                   <button onClick={() => setStage('select-games')}
-                    className="px-8 py-4 rounded-2xl font-bold text-lg bg-gradient-to-r from-brand-gold to-brand-gold-warm text-white hover:scale-105 transition-transform">
+                    className="px-8 py-4 rounded-2xl font-bold text-lg bg-gradient-to-r from-brand-gold to-brand-gold-warm text-gray-900 hover:scale-105 transition-transform shadow-lg hover:shadow-xl">
                     Get Started →
                   </button>
                 </div>
@@ -1068,19 +1068,19 @@ export default function BoardGameRecommenderV7() {
             <h1 className="text-2xl font-bold text-white">Select Games You've Played</h1>
           </div>
           <div className="sticky top-2 z-20 mb-4">
-            <div className="bg-slate-800/95 backdrop-blur-lg rounded-2xl p-4 border border-white/10">
-              <div className="flex flex-wrap items-center gap-4 mb-3">
-                <span className="text-white"><span className="text-brand-gold font-bold">{selectedGames.size}</span> selected</span>
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-5 border border-white/20 shadow-lg">
+              <div className="flex flex-wrap items-center gap-4 mb-4">
+                <span className="text-white text-lg"><span className="text-brand-gold font-bold text-xl">{selectedGames.size}</span> selected</span>
                 <button onClick={() => { if (selectedGames.size > 0) { setStage('rate-elements'); setCurrentGameIndex(0); } }}
                   disabled={selectedGames.size === 0}
-                  className={`ml-auto px-6 py-2.5 rounded-xl font-semibold transition-all ${selectedGames.size > 0 ? 'bg-gradient-to-r from-brand-gold to-brand-gold-warm text-white hover:scale-105' : 'bg-white/10 text-white/40 cursor-not-allowed'}`}>
+                  className={`ml-auto px-6 py-2.5 rounded-xl font-semibold transition-all ${selectedGames.size > 0 ? 'bg-gradient-to-r from-brand-gold to-brand-gold-warm text-gray-900 hover:scale-105 shadow-md hover:shadow-lg' : 'bg-white/10 text-white/40 cursor-not-allowed'}`}>
                   {selectedGames.size === 0 ? 'Select games to rate' : 'Rate Elements →'}
                 </button>
               </div>
               <div className="flex flex-col md:flex-row gap-3">
                 <input type="text" placeholder="Search..." value={searchQuery} onChange={e => setSearchQuery(e.target.value)}
-                  className="flex-1 px-4 py-2 bg-white/10 rounded-lg text-white placeholder-white/50" />
-                <select value={filterComplexity} onChange={e => setFilterComplexity(e.target.value)} className="px-3 py-2 bg-white/10 rounded-lg text-white">
+                  className="flex-1 px-4 py-3 bg-white/15 rounded-xl text-white placeholder-white/60 border border-white/10 focus:border-brand-gold/50 focus:outline-none transition-all" />
+                <select value={filterComplexity} onChange={e => setFilterComplexity(e.target.value)} className="px-4 py-3 bg-white/15 rounded-xl text-white border border-white/10 focus:border-brand-gold/50 focus:outline-none transition-all">
                   <option value="all">All Weights</option>
                   <option value="light">Light</option>
                   <option value="gateway">Gateway</option>
@@ -1177,7 +1177,7 @@ export default function BoardGameRecommenderV7() {
             <button onClick={prevGame} disabled={currentGameIndex === 0}
               className={`px-5 py-3 rounded-xl font-medium ${currentGameIndex === 0 ? 'bg-white/5 text-white/30' : 'bg-white/10 text-white hover:bg-white/20'}`}>←</button>
             <button onClick={() => setStage('select-games')} className="px-4 py-3 rounded-xl bg-white/10 text-white hover:bg-white/20 text-sm">+ Games</button>
-            <button onClick={nextGame} className="flex-1 px-6 py-3 rounded-xl font-semibold bg-gradient-to-r from-brand-gold to-brand-gold-warm text-white hover:scale-[1.02]">
+            <button onClick={nextGame} className="flex-1 px-6 py-3 rounded-xl font-semibold bg-gradient-to-r from-brand-gold to-brand-gold-warm text-gray-900 hover:scale-[1.02] shadow-md hover:shadow-lg transition-all">
               {currentGameIndex < gamesToRate.length - 1 ? 'Next Game →' : 'See Results →'}
             </button>
           </div>

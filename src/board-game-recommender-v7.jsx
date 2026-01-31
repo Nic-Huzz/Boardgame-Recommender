@@ -771,11 +771,11 @@ function GameCard({ game, scored, showBGG = true }) {
   const isPerfect = scored.matchScore >= 50;
   
   return (
-    <div className={`rounded-2xl p-5 border transition-all ${isPerfect ? 'bg-gradient-to-br from-emerald-500/10 to-cyan-500/10 border-emerald-500/40' : 'bg-white/5 border-white/10'}`}>
+    <div className={`rounded-2xl p-5 border transition-all ${isPerfect ? 'bg-gradient-to-br from-brand-gold/10 to-brand-gold-warm/10 border-brand-gold/40' : 'bg-white/5 border-white/10'}`}>
       <div className="flex justify-between items-start mb-3">
         <div>
           <h3 className="text-lg font-bold text-white">{game.name}</h3>
-          <div className="text-sm text-indigo-300">{game.year}</div>
+          <div className="text-sm text-purple-300">{game.year}</div>
         </div>
         <MatchBadge score={scored.matchScore} />
       </div>
@@ -954,7 +954,7 @@ export default function BoardGameRecommenderV7() {
       })}
       <div className="ml-auto flex items-center gap-2">
         {readiness.canRecommend && (
-          <button onClick={handleSave} className="px-4 py-2 rounded-xl text-sm font-medium bg-indigo-500/30 text-indigo-200 hover:bg-indigo-500/50 transition-all">
+          <button onClick={handleSave} className="px-4 py-2 rounded-xl text-sm font-medium bg-brand-purple/30 text-purple-200 hover:bg-brand-purple/50 transition-all">
             {saveStatus === 'saving' ? '💾 Saving...' : saveStatus === 'saved' ? '✅ Saved!' : saveStatus === 'error' ? '❌ Error' : '💾 Save Profile'}
           </button>
         )}
@@ -965,7 +965,7 @@ export default function BoardGameRecommenderV7() {
   // ========== LOADING ==========
   if (stage === 'loading') {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-indigo-900 to-slate-900 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-purple-950 via-brand-purple to-purple-950 flex items-center justify-center">
         <div className="text-center">
           <div className="text-4xl mb-4 animate-bounce">🎲</div>
           <p className="text-white/70">Loading your profile...</p>
@@ -977,11 +977,11 @@ export default function BoardGameRecommenderV7() {
   // ========== HOME ==========
   if (stage === 'home') {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-indigo-900 to-slate-900 p-4">
+      <div className="min-h-screen bg-gradient-to-br from-purple-950 via-brand-purple to-purple-950 p-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center py-12">
             <h1 className="text-4xl font-bold text-white mb-3">🎲 Board Game Recommender</h1>
-            <p className="text-xl text-indigo-200 mb-8">Find your next favorite game</p>
+            <p className="text-xl text-purple-200 mb-8">Find your next favorite game</p>
             
             {hasProfile && readiness.canRecommend ? (
               <div className="space-y-6">
@@ -999,13 +999,13 @@ export default function BoardGameRecommenderV7() {
                 
                 <div className="grid grid-cols-2 gap-4">
                   <button onClick={() => setStage('browse')}
-                    className="p-6 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-cyan-500/20 border border-emerald-500/30 hover:border-emerald-500/50 transition-all text-left">
+                    className="p-6 rounded-2xl bg-gradient-to-br from-brand-gold/20 to-brand-gold-warm/20 border border-brand-gold/30 hover:border-brand-gold/50 transition-all text-left">
                     <div className="text-2xl mb-2">🔍</div>
                     <h3 className="text-white font-bold mb-1">Browse & Search</h3>
                     <p className="text-white/60 text-sm">See match % for all games</p>
                   </button>
                   <button onClick={() => setStage('results')}
-                    className="p-6 rounded-2xl bg-gradient-to-br from-indigo-500/20 to-purple-500/20 border border-indigo-500/30 hover:border-indigo-500/50 transition-all text-left">
+                    className="p-6 rounded-2xl bg-gradient-to-br from-brand-purple/20 to-brand-purple-light/20 border border-brand-purple/30 hover:border-brand-purple/50 transition-all text-left">
                     <div className="text-2xl mb-2">🎯</div>
                     <h3 className="text-white font-bold mb-1">Top Picks</h3>
                     <p className="text-white/60 text-sm">See your best matches</p>
@@ -1032,7 +1032,7 @@ export default function BoardGameRecommenderV7() {
                     We'll find your perfect next game! 🎯
                   </p>
                   <button onClick={() => setStage('select-games')}
-                    className="px-8 py-4 rounded-2xl font-bold text-lg bg-gradient-to-r from-emerald-400 to-cyan-500 text-white hover:scale-105 transition-transform">
+                    className="px-8 py-4 rounded-2xl font-bold text-lg bg-gradient-to-r from-brand-gold to-brand-gold-warm text-white hover:scale-105 transition-transform">
                     Get Started →
                   </button>
                 </div>
@@ -1061,7 +1061,7 @@ export default function BoardGameRecommenderV7() {
   // ========== SELECT GAMES ==========
   if (stage === 'select-games') {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-indigo-900 to-slate-900 p-4">
+      <div className="min-h-screen bg-gradient-to-br from-purple-950 via-brand-purple to-purple-950 p-4">
         <div className="max-w-6xl mx-auto">
           <NavBar current="select-games" />
           <div className="text-center mb-4">
@@ -1070,10 +1070,10 @@ export default function BoardGameRecommenderV7() {
           <div className="sticky top-2 z-20 mb-4">
             <div className="bg-slate-800/95 backdrop-blur-lg rounded-2xl p-4 border border-white/10">
               <div className="flex flex-wrap items-center gap-4 mb-3">
-                <span className="text-white"><span className="text-emerald-400 font-bold">{selectedGames.size}</span> selected</span>
+                <span className="text-white"><span className="text-brand-gold font-bold">{selectedGames.size}</span> selected</span>
                 <button onClick={() => { if (selectedGames.size > 0) { setStage('rate-elements'); setCurrentGameIndex(0); } }}
                   disabled={selectedGames.size === 0}
-                  className={`ml-auto px-6 py-2.5 rounded-xl font-semibold transition-all ${selectedGames.size > 0 ? 'bg-gradient-to-r from-emerald-400 to-cyan-500 text-white hover:scale-105' : 'bg-white/10 text-white/40 cursor-not-allowed'}`}>
+                  className={`ml-auto px-6 py-2.5 rounded-xl font-semibold transition-all ${selectedGames.size > 0 ? 'bg-gradient-to-r from-brand-gold to-brand-gold-warm text-white hover:scale-105' : 'bg-white/10 text-white/40 cursor-not-allowed'}`}>
                   {selectedGames.size === 0 ? 'Select games to rate' : 'Rate Elements →'}
                 </button>
               </div>
@@ -1099,7 +1099,7 @@ export default function BoardGameRecommenderV7() {
                   className={`p-3 rounded-xl text-left transition-all border ${sel ? 'bg-emerald-500/20 border-emerald-500/50 ring-2 ring-emerald-500/50' : 'bg-white/5 border-white/10 hover:border-white/30'}`}>
                   <div className="flex items-start justify-between mb-1">
                     <h3 className="font-medium text-white text-sm leading-tight">{game.name}</h3>
-                    {sel && <span className="text-emerald-400 ml-1">✓</span>}
+                    {sel && <span className="text-brand-gold ml-1">✓</span>}
                   </div>
                   <div className="flex items-center gap-2">
                     <span className={`px-1.5 py-0.5 rounded text-xs ${COMPLEXITY_TIERS[tier].color}`}>{COMPLEXITY_TIERS[tier].label}</span>
@@ -1117,7 +1117,7 @@ export default function BoardGameRecommenderV7() {
   // ========== RATE ELEMENTS ==========
   if (stage === 'rate-elements' && currentGame) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-indigo-900 to-slate-900 p-4">
+      <div className="min-h-screen bg-gradient-to-br from-purple-950 via-brand-purple to-purple-950 p-4">
         <div className="max-w-2xl mx-auto">
           <NavBar current="rate-elements" />
           <div className="mb-6">
@@ -1126,13 +1126,13 @@ export default function BoardGameRecommenderV7() {
               <span className="text-white/70 text-sm">{readiness.likes} 👍 {readiness.dislikes} 👎</span>
             </div>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-              <div className="h-full bg-gradient-to-r from-emerald-400 to-cyan-500 transition-all" style={{ width: `${((currentGameIndex + 1) / gamesToRate.length) * 100}%` }} />
+              <div className="h-full bg-gradient-to-r from-brand-gold to-brand-gold-warm transition-all" style={{ width: `${((currentGameIndex + 1) / gamesToRate.length) * 100}%` }} />
             </div>
           </div>
           <div className="bg-white/5 rounded-2xl p-6 mb-6 border border-white/10">
             <div className="text-center mb-6">
               <h2 className="text-2xl font-bold text-white mb-1">{currentGame.name}</h2>
-              <p className="text-indigo-300">What did you think about these aspects?</p>
+              <p className="text-purple-300">What did you think about these aspects?</p>
             </div>
             <div className="space-y-3">
               {currentGame.elements.map(el => (
@@ -1177,12 +1177,12 @@ export default function BoardGameRecommenderV7() {
             <button onClick={prevGame} disabled={currentGameIndex === 0}
               className={`px-5 py-3 rounded-xl font-medium ${currentGameIndex === 0 ? 'bg-white/5 text-white/30' : 'bg-white/10 text-white hover:bg-white/20'}`}>←</button>
             <button onClick={() => setStage('select-games')} className="px-4 py-3 rounded-xl bg-white/10 text-white hover:bg-white/20 text-sm">+ Games</button>
-            <button onClick={nextGame} className="flex-1 px-6 py-3 rounded-xl font-semibold bg-gradient-to-r from-emerald-400 to-cyan-500 text-white hover:scale-[1.02]">
+            <button onClick={nextGame} className="flex-1 px-6 py-3 rounded-xl font-semibold bg-gradient-to-r from-brand-gold to-brand-gold-warm text-white hover:scale-[1.02]">
               {currentGameIndex < gamesToRate.length - 1 ? 'Next Game →' : 'See Results →'}
             </button>
           </div>
           {readiness.canRecommend && (
-            <button onClick={() => setStage('results')} className="w-full mt-3 py-2 text-indigo-300 hover:text-white text-sm">
+            <button onClick={() => setStage('results')} className="w-full mt-3 py-2 text-purple-300 hover:text-white text-sm">
               Skip to results ({readiness.emoji} {readiness.label})
             </button>
           )}
@@ -1203,7 +1203,7 @@ export default function BoardGameRecommenderV7() {
     })() : null;
     
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-indigo-900 to-slate-900 p-4">
+      <div className="min-h-screen bg-gradient-to-br from-purple-950 via-brand-purple to-purple-950 p-4">
         <div className="max-w-4xl mx-auto">
           <NavBar current="results" />
           <div className="text-center mb-6">
@@ -1247,7 +1247,7 @@ export default function BoardGameRecommenderV7() {
           {!recs?.perfect.length && !recs?.great.length && !recs?.worth.length && (
             <div className="text-center py-12 bg-white/5 rounded-2xl">
               <p className="text-white/70 mb-4">Rate more elements to get recommendations!</p>
-              <button onClick={() => setStage('select-games')} className="px-6 py-3 bg-indigo-500 text-white rounded-xl">Add Games</button>
+              <button onClick={() => setStage('select-games')} className="px-6 py-3 bg-brand-purple text-white rounded-xl">Add Games</button>
             </div>
           )}
           
@@ -1266,12 +1266,12 @@ export default function BoardGameRecommenderV7() {
   // ========== BROWSE & SEARCH ==========
   if (stage === 'browse') {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-indigo-900 to-slate-900 p-4">
+      <div className="min-h-screen bg-gradient-to-br from-purple-950 via-brand-purple to-purple-950 p-4">
         <div className="max-w-5xl mx-auto">
           <NavBar current="browse" />
           <div className="text-center mb-4">
             <h1 className="text-2xl font-bold text-white">🔍 Browse All Games</h1>
-            <p className="text-indigo-300 text-sm">See your match % for every game</p>
+            <p className="text-purple-300 text-sm">See your match % for every game</p>
           </div>
           
           {/* Search & Filters */}
